@@ -1,0 +1,15 @@
+header#lsd-main-header {
+    box-shadow: 0px 8px 24px -5px rgba(0, 0, 0, 0.18);
+    height: 2em;
+    overflow: hidden;
+}
+
+#lsd-main-header .left-column{
+    width: 50%;
+    float: left;
+}
+
+#lsd-main-header .right-column{
+    width: 50%;
+    float: right;
+}
