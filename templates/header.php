@@ -1,26 +1,33 @@
 <header id="lsd-main-header">
-	
-	<div class="left-column">
-		<nav class="channels-container">
-			<a href="#">Canal la red</a>
-			<a href="#">Otros canales</a>
-		</nav>
-	</div>
-
-	<div class="right-column">
-
-		<div class="user">
-			<img class="user-image-profile"></img>
-			<span class="user-mail">usuario@gmail.com</span>
+	<div class="header-container">
+		
+		<div class="left-column">
+			<nav class="channels-container">
+				<a href="#">Canal la red</a>
+				<a href="#">Otros canales</a>
+			</nav>
 		</div>
 
-		<div class="configurations">
-			<img class="config-icon"></img>
-		</div>
+		<div class="right-column">
 
-		<div class="main-menu">
-			<img class="main-menu-icon"></img>
-		</div>
+			<div class="options main-menu">
+				<a href="#">
+					<img  src="img/svg-icons/menu.svg" class="header-icon main-menu"></img>
+				</a>
+			</div>
 
+			<div class="options configurations">
+				<a href="#">
+					<img  src="img/svg-icons/configurations.svg" class="header-icon config"></img>
+				</a>
+			</div>
+
+			<div class="options user">
+				<a href="#">
+					<span class="user-mail">usuario@gmail.com</span>
+					<img class="header-icon user-image-profile" src="img/svg-icons/profile-user.svg"></img>
+				</a>
+			</div>
+		</div>
 	</div>
 </header>

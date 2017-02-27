@@ -1,0 +1,15 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	margin: 0;
+    padding: 0;
+}
+
+a{
+	color: #3c4250;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#4f81a1;
+}
