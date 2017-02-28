@@ -53,11 +53,11 @@
 
 #main-container .panel {
     background: white;
-    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.18);
-    overflow: hidden;
-    padding: 18px;
+    box-shadow: 0px 5px 9px -5px rgba(0, 0, 0, 0.18);
+    padding: 20px;
     border: 1px solid #e1e1e1;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
+    position: relative;
    }
 
 .panel .info{
@@ -66,12 +66,13 @@
     display: block;
     background: gray;
     position: absolute;
-    right: 27px;
-    top: 40px;
+    right: 10px;
+    top: 10px;
     mask-image: url("../img/svg-icons/info.svg");
 	-webkit-mask:url("../img/svg-icons/info.svg") no-repeat 50% 50%;
 	-webkit-mask-size: cover;
  	mask-size: cover;
+
 
 }
 
@@ -85,9 +86,9 @@
 .users-now{
     background: #ea3f33 !important;
     color: white;
-    padding: 46px 1em;
+    padding: 3vw 20px !important;
     text-align: center;
-        height: 370px;
+    height: calc(380px - 6vw)
 }
 
 .users-now .info{
@@ -136,13 +137,19 @@
 /* Panel de plataformas */
 
 .platforms-stats{ 
-	height: 370px;
+	height: calc(380px - 40px);
 }
 
 .platforms-stats .platform-container{
 	overflow: hidden;
 	    margin-top: 48px;
 }
+
+.platforms-stats .desktop{
+	margin-top: 30px !important;
+}
+
+
 
 .platform-container .platform-name h2{
 	float: left;
@@ -253,7 +260,7 @@
 
 .numeric{    
 	height: calc(115px - 36px);
-	margin: 30px 0 0 0  !important;
+	margin: 10px 0 0 0  !important;
 }
 
 .numeric:first-child{
@@ -262,15 +269,16 @@
 
 
 .numeric .number-container{
-	    margin: 0 0 0 25%;
+	    margin: 0 0 10px 25%;
 }
 
 .numeric .number-container .icon{
-    width: 47px;
-    height: 47px;
+    width: 2.4vw;
+    height: 2.4vw;
     background: black;
     display: inline-block;
         margin: 0 12px 0 0;
+            float: left;
 }
 
 
@@ -297,9 +305,11 @@
 }
 
 .numeric .number-container h3{
-	font-size: 55px;
+	font-size: 2.4vw;
     font-weight: 500;
     margin: 0;
+    display: inline-block;
+    line-height: 50px;
 }
 
 .numeric h2{
@@ -312,8 +322,11 @@
 }
 
 .numeric .min-container{
-    font-size: 35px;
-    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 26px;
+    display: block;
+    float: right;
+    margin: 18px 0 0 15px;
 }
 
 .percentage-module{

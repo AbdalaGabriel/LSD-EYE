@@ -119,25 +119,26 @@
 					<div class="panel numeric plays">
 					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container users">
-
-							<h3><span class="icon"></span>12224 </h3>
+							<span class="icon"></span>
+							<h3>12224 </h3>
 						</div>
 						<h2 class="label">Plays acumulados en el día</h2>
 					</div>
 
 					<div class="panel numeric users">
-
+					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container">
-
-							<h3><span class="icon"></span>3010</h3>
+							<span class="icon"></span>
+							<h3>3010</h3>
 						</div>
 						<h2 class="label">Usuarios acumulados en el día</h2>
 					</div>
 
 					<div class="panel numeric hours">
+					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container">
-
-							<h3><span class="icon"></span>122 <span class="min-container">min</span></h3>
+							<span class="icon"></span>
+							<h3>122 <span class="min-container">min</span></h3>
 						</div>
 						<h2 class="label">Tiempo promedio</h2>
 					</div>
