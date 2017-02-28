@@ -2,7 +2,9 @@
     max-width: 167px;
     background: #3c4250;
     height: calc(100vh - 36px);
-    position: relative;
+    float: left;
+    position: fixed;
+    margin: 36px 0 0 0 ;
 }
 
 #main-lateral-bar .logo-container{

@@ -13,3 +13,25 @@ a{
 a:hover{
 	color:#4f81a1;
 }
+
+.start-collumn{
+	padding-left: 0 !important;
+}
+
+.end-collumn{
+	padding-right: 0 !important;
+}
+
+.row{
+	    margin: 0;
+    padding: 0 30px;
+}
+
+main{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.bold{
+	font-weight: 500;
+}

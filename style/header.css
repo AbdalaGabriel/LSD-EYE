@@ -3,10 +3,14 @@ header#lsd-main-header {
     overflow: hidden;
     height: 36px;
     line-height: 36px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background: white;
 }
 
 #lsd-main-header .header-container{
-	max-width: 1768px;
+	max-width: 1895px;
 	margin: 0 auto;
 }
 
