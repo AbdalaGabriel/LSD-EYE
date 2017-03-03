@@ -1,0 +1,35 @@
+//Linear graphic
+
+.highcharts-button-pressed {
+    fill: #8dc0ee;
+    color: white;
+}
+
+.highcharts-button-pressed text{
+    fill:white;
+    color: white;
+}
+
+
+#linear-graphic{
+    height: 370px;
+    overflow: hidden;
+}
+
+#highcharts-32xzxez-0{
+    height: 340px;
+}
+
+.highcharts-button-box{
+    fill: white;
+    stroke: #8dc0ee;
+    line-height: 32px;
+    display: block;
+    width: 42;
+    text-align: center;
+}
+
+.highcharts-color-0 {
+    fill: #953b4d !important;
+    stroke: none !important;
+}

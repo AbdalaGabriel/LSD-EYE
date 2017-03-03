@@ -24,8 +24,9 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 
 
 
@@ -335,7 +336,7 @@ $(function () {
 
 
   	// Mapa
-   	/*$.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=world-population.json&callback=?', function (data) {
+   	$.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=world-population.json&callback=?', function (data) {
 
 	    // Correct UK to GB in data
 	    $.each(data, function () {
@@ -370,11 +371,11 @@ $(function () {
 
 	        series: [{
 	            name: 'Countries',
-	            color: '#E0E0E0',
+	            color: '#943a4d',
 	            enableMouseTracking: false
 	        }, {
 	            type: 'mapbubble',
-	            name: 'Population 2013',
+	            name: 'Usuarios',
 	            joinBy: ['iso-a2', 'code'],
 	            data: data,
 	            minSize: 4,
@@ -385,98 +386,8 @@ $(function () {
 	        }]
 	    });
 	});
-*/
 
-   	// Linear
-
-   	$.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=new-intraday.json&callback=?', function (data) {
-
-    // create the chart
-    Highcharts.stockChart('linear-graphic', {
-
-
-        title: {
-            text: ' ',
-        },
-
-        xAxis: {
-            gapGridLineWidth: 0,
-            title: {
-            	text: 'Minutos',
-            	y: 10,
-            }
-        },
-        yAxis: {
-            title: {
-            	text: 'Audiencia/Usuarios',
-            	align: "middle",
-				margin: 0,
-				offset: undefined,
-				rotation: 270,
-				x: -1007
-            }
-        },
-
-        rangeSelector: {
-            buttons: [{
-                type: 'hour',
-                count: .25,
-                text: '15'
-            }, {
-                type: 'hour',
-                count: .5,
-                text: '30'
-            }, {
-                type: 'hour',
-                count: 1,
-                text: '1h'
-            }, {
-                type: 'hour',
-                count: 2,
-                text: '2h'
-            }, {
-                type: 'hour',
-                count: 6,
-                text: '6h'
-            }, {
-                type: 'hour',
-                count: 12,
-                text: '12h'
-            }, {
-                type: 'day',
-                count: 1,
-                text: '24h'
-            }],
-            selected: 1,
-            inputEnabled: false
-        },
-
-        series: [{
-            name: 'Usuarios',
-            type: 'area',
-            data: data,
-            gapSize: 5,
-            tooltip: {
-                valueDecimals: 2
-            },
-            fillColor: {
-                linearGradient: {
-                    x1: 0,
-                    y1: 0,
-                    x2: 0,
-                    y2: 1
-                },
-                stops: [
-                    [0, Highcharts.getOptions().colors[0]],
-                    [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
-                ]
-            },
-            threshold: null
-        }]
-    });
-});
-
-   	$(".highcharts-range-selector-buttons").css("display","none");
+   	
 
 
 });
