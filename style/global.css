@@ -35,3 +35,15 @@ main{
 .bold{
 	font-weight: 500;
 }
+
+.highcharts-point{
+	fill: #b1b1b1 !important;
+}
+
+ .highcharts-color-0   {
+	fill: red !important;
+
+    stroke: none !important;
+}
+
+b1b1b1

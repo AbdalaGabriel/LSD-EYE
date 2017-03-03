@@ -23,6 +23,13 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://code.highcharts.com/stock/modules/stock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+
+
 
 
 </head>
@@ -151,6 +158,8 @@
 							Tiempo real
 						</h2>
 
+						<div id="linear-graphic"></div>
+
 						
 					</div>
 
@@ -158,6 +167,8 @@
 						<h2 class="panel-title countries-graphic">
 							Países
 						</h2>
+
+						<div id="map-graphic" style="width:100%; height:400px;"></div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-4 end-collumn">
@@ -322,7 +333,133 @@
 <script src="js/bootstrap.min.js"></script>
 <script>
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+  	$('[data-toggle="tooltip"]').tooltip();
+
+
+  	// Mapa
+   	$.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=world-population.json&callback=?', function (data) {
+
+	    // Correct UK to GB in data
+	    $.each(data, function () {
+	        if (this.code === 'UK') {
+	            this.code = 'GB';
+	        }
+	    });
+
+	    Highcharts.mapChart('map-graphic', {
+	        chart: {
+	            borderWidth: 0,
+	            map: 'custom/world'
+	        },
+
+	        title: {
+	            text: ''
+	        },
+
+	        legend: {
+	            enabled: false
+	        },
+
+	        mapNavigation: {
+	            enabled: true,
+	            buttonOptions: {
+	                verticalAlign: 'bottom'
+	            }
+	        },
+	        colors: ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9', 
+   					'#f15c80', '#e4d354', '#8085e8', '#8d4653', '#91e8e1'
+   					],
+
+	        series: [{
+	            name: 'Countries',
+	            color: '#E0E0E0',
+	            enableMouseTracking: false
+	        }, {
+	            type: 'mapbubble',
+	            name: 'Population 2013',
+	            joinBy: ['iso-a2', 'code'],
+	            data: data,
+	            minSize: 4,
+	            maxSize: '12%',
+	            tooltip: {
+	                pointFormat: '{point.code}: {point.z} thousands'
+	            }
+	        }]
+	    });
+	});
+
+
+   	// Linear
+
+   	$.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=new-intraday.json&callback=?', function (data) {
+
+    // create the chart
+    Highcharts.Chart('linear-graphic', {
+
+
+        title: {
+            text: 'AAPL stock price by minute'
+        },
+
+        subtitle: {
+            text: 'Using explicit breaks for nights and weekends'
+        },
+
+        xAxis: {
+            breaks: [{ // Nights
+                from: Date.UTC(2011, 9, 6, 16),
+                to: Date.UTC(2011, 9, 7, 8),
+                repeat: 24 * 36e5
+            }, { // Weekends
+                from: Date.UTC(2011, 9, 7, 16),
+                to: Date.UTC(2011, 9, 10, 8),
+                repeat: 7 * 24 * 36e5
+            }]
+        },
+
+        rangeSelector: {
+            buttons: [{
+                type: 'hour',
+                count: 1,
+                text: '1h'
+            }, {
+                type: 'day',
+                count: 1,
+                text: '1D'
+            }, {
+                type: 'all',
+                count: 1,
+                text: 'All'
+            }],
+            selected: 1,
+            inputEnabled: false
+        },
+
+        series: [{
+            name: 'AAPL',
+            type: 'area',
+            data: data,
+            gapSize: 5,
+            tooltip: {
+                valueDecimals: 2
+            },
+            fillColor: {
+                linearGradient: {
+                    x1: 0,
+                    y1: 0,
+                    x2: 0,
+                    y2: 1
+                },
+                stops: [
+                    [0, Highcharts.getOptions().colors[0]],
+                    [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                ]
+            },
+            threshold: null
+        }]
+    });
+});
+
+});
 </script>
 </html>
