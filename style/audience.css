@@ -1,0 +1,117 @@
+
+.audience-per-program{
+	overflow: hidden;
+}
+.audience-per-program .panel-title{
+	    float: left;
+	    margin-bottom: 0; 
+}
+
+.audience-per-program .table-container{
+	    float: left;
+    width: 100%;
+    margin: 40px 0 0 0;
+}
+
+.tabs-container{
+        overflow: hidden;
+    float: left;
+    margin: 2em 0 0 9em;
+}
+
+.date{
+	    float: left;
+    clear: both;
+}
+.date h5{
+	font-size: 13px;
+	    margin: 0;
+}
+.tabs-container .hint{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: left;
+    margin: 0 1em 0 0;
+    line-height: 34px;
+}
+.tabs{
+    border: 2px solid red;
+    float:left;
+    height: 30px;
+    line-height: 30px;
+    border-radius: .3em;
+    overflow: hidden;
+
+}
+
+.tabs .tab{
+    display: block;
+    float: left;
+    padding: 0 1em;
+    font-family: Roboto;
+    border-right: 2px solid #ea3f33;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+.tabs .tab:last-child{
+   
+    border-right: none;
+
+}
+
+.tabs .tab:hover{
+   
+    background: #ea3f33;
+    color: white;
+
+}
+
+
+.tabs .tab.active{
+   
+    background: #ea3f33;
+    color: white;
+
+}
+
+table.audience{
+	width: 100%;
+
+    border-collapse: collapse;
+}
+
+table.audience th{
+	border-bottom: 1px solid #a3a3a3;
+    font-size: 17px;
+    font-weight: 300;
+}
+table.audience td{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+
+    border-collapse: collapse;
+    padding: 27px .5em;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+table.audience th:first-child{
+    text-align: left;
+    font-weight: 400;
+    padding: 17px .5em;
+}
+
+table.audience td:first-child{
+    text-align: left;
+}
+
+table.audience tr:nth-child(2n+1){
+    background-color: #f5f5f5;
+}
+
+table.audience tr:first-child{
+    background:none;
+}

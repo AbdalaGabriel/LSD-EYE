@@ -1,0 +1,231 @@
+
+.reports{
+	overflow: hidden;
+}
+
+.reports h2{
+	font-weight: 400;
+    font-size: 20px;
+}
+
+.simple-switch-outter{
+	float: left;
+	height: 20px !important;
+	    margin: 1.5em 1em 0 0;
+}
+
+.simple-switch-circle{
+	    margin: -.5em 0 0 0;
+}
+
+.report-option{
+	overflow: hidden;
+    margin: 0 0 70px 0;
+ }
+.report-option:last-child{
+	overflow: hidden;
+    margin:  0;
+ }
+
+.report-option .content{
+	float: left;
+	    padding-bottom: 12px;
+    border-bottom: 1px solid #a3a3a3;
+        width: 85%;
+}
+.report-option .content h3{
+	font-weight: 500;
+    font-size: 15px;
+}
+
+.report-option .content span{
+	font-weight: 400;
+    font-size: 14px;
+}
+
+.report-option .button-container {
+	    float: right;
+    margin: 2em 1em 0;
+}
+
+.report-option .button-container a{
+	display: block;
+    padding: 10px 34px;
+    background: #0ba762;
+    color: white;
+    border-radius: .5em;
+    font-size: 16px;
+}
+
+.action-buttons-container{
+	    max-width: 30em;
+    margin: 66px  auto 0;
+}
+
+.action-buttons-container .action-button{
+	    width: 17%;
+    float: left;
+    margin: 0 7%;
+}
+.action-button{
+	    display: block;
+    padding: 10px 34px;
+    color: white;
+    border-radius: .3em;
+    font-size: 16px;
+
+    text-align: center;
+    
+}
+
+.ok{
+	background: #ec473a;
+}
+
+.cancel{
+	background: #c4c3c3;
+	    margin-right: 0 !important;
+    margin-left: 14% !important;
+}
+
+.grid{
+	overflow: hidden;
+}
+
+.grid .grid-item{ 
+     width: 18%;
+    margin: 0 calc(1% - 2px);
+    float: left;
+    min-height: 240px;
+    border: 2px solid #efefef;
+    position: relative;
+}
+
+.grid-item .grid-icon-container{
+	    display: block;
+    width: 34px;
+    height: 34px;
+    float: left;
+    background: #ffffff;
+    margin: 1.2em 7px;
+    position: absolute;
+    border-radius: 3em;
+    top: 44px;
+    right: 12px
+}
+
+.grid-item .grid-icon-container .icon{
+	    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    background: #000;
+
+}
+
+
+
+.grid-item header{
+	background: #414bb2;
+    color: white;
+    padding: 12px;
+}
+
+.grid-item header img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.grid-item h2{
+	font-weight: 300;
+}
+
+.grid-item .info-box{
+	    width: 50%;
+    float: left;
+        text-align: center;
+    padding: 25px 0 0 0 ; 
+}
+
+.grid-item .info-box .quantity {
+   font-size: 30px;
+    font-weight: 500;
+    color: #939393;
+    display: block;
+}
+
+.grid-item .info-box .data{
+	    color: #939393;
+	     font-size: 13px;
+    font-weight: 400;
+}
+
+.grid-item footer{
+	position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.grid-item footer .icons-container{
+width: 212px;
+margin: 0 auto;
+}
+
+.grid-item footer .icons-container .icon{
+	    display: block;
+    width: 39px;
+    height: 34px;
+    float: left;
+    background: #a0a5d8;
+    margin: 1.2em 7px;
+
+}
+
+.delete{
+    mask-image: url("../img/svg-icons/delete.svg");
+	-webkit-mask:url("../img/svg-icons/delete.svg") no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+ 	mask-size: cover;
+}
+
+.suspend{
+    mask-image: url("../img/svg-icons/suspend.svg");
+	-webkit-mask:url("../img/svg-icons/suspend.svg") no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+ 	mask-size: cover;
+}
+
+.edit{
+    mask-image: url("../img/svg-icons/edit.svg");
+	-webkit-mask:url("../img/svg-icons/edit.svg") no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+ 	mask-size: cover;
+}
+
+.cloud{
+    mask-image: url("../img/svg-icons/cloud.svg");
+	-webkit-mask:url("../img/svg-icons/cloud.svg") no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+ 	mask-size: cover;
+}
+
+
+.eye{
+    mask-image: url("../img/svg-icons/eye.svg");
+	-webkit-mask:url("../img/svg-icons/eye.svg") no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+ 	mask-size: cover;
+}
+
+
+.checked{
+    mask-image: url("../img/svg-icons/checked.svg");
+	-webkit-mask:url("../img/svg-icons/checked.svg") no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	background: #25ae88 !important;
+ 	mask-size: cover;
+}
+
+

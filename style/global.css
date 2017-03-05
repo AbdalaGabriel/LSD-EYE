@@ -46,4 +46,6 @@ main{
     stroke: none !important;
 }
 
-b1b1b1
+.o-hidden{
+ overflow: hidden !important; 
+}

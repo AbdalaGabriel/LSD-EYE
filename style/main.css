@@ -1,7 +1,63 @@
-#main-content{
-    padding: 36px 0 0 167px;
+main{
+	padding: 36px 0 0 167px;
     overflow: hidden;
     background: #f5f5f5;
+}
+
+#main-content-preferences #preferences-header{
+	height: 160px !important;
+    background: #ea3f33 !important;
+    overflow: hidden !important;
+    color: white;
+}
+
+#preferences-header h2{
+	    font-family: roboto;
+    font-weight: 100;
+    margin: 32px 0 0 35px;
+    font-size: 35px;
+}
+
+#preferences-header nav{
+	    margin: 46px 0 0 18px;
+}
+
+#preferences-header  nav ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+#preferences-header  nav ul li{
+    float: left;
+    list-style-type: none;
+        margin: 0 20px;
+ 
+}
+
+#preferences-header nav ul li a{
+    display: block;
+  	font-size: 17px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #f5b0ad ;
+    border-bottom: 4px solid #ea3f33
+  
+}
+
+#preferences-header nav ul li a:hover{
+    color: white ;
+    border-bottom: 4px solid black;
+
+}
+
+
+#preferences-header nav ul li a.active{
+    color: white ;
+    border-bottom: 4px solid black;
+  
 }
 
 #main-content header{
@@ -47,8 +103,10 @@
 }
 
 #main-container {
-    overflow: hidden;
+        overflow: hidden;
     position: relative;
+    min-height: calc(100vh - 74px - 5em);
+    padding-bottom: 5em;
 }
 
 #main-container .panel {
@@ -500,4 +558,13 @@ background:  #607d8d;
     margin: 0;
     font-size: 15px;
     font-weight: 400;
+}
+
+
+
+#preferences-header{
+	    height: 160px !important;
+    background: #ea3f33 !important;
+    overflow: hidden !important;
+    color: white;
 }
