@@ -1,7 +1,6 @@
 header#lsd-main-header {
     box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.18);
-    overflow: hidden;
-    height: 36px;
+     height: 36px;
     line-height: 36px;
     position: fixed;
     z-index: 10;
@@ -56,4 +55,79 @@ header#lsd-main-header {
 .header-icon{
 	width: 23px;
 	height: 36px;
+}
+
+.main-menu-container{
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    width: 170px;
+    background: white;
+    top: 36px;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    height: 0;
+
+}
+
+.main-menu-container ul{
+   margin:0;
+   padding:0;
+}
+
+.main-menu-container ul li{
+   list-style-type: none;
+}
+
+.main-menu-container ul li a{
+  display: block;
+    text-align: center;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 13px;
+    height: 42px;
+    line-height: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Roboto;
+
+  
+}
+
+.showmenu{
+    -webkit-animation-name: showmenu; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+     animation-name: showmenu;
+    animation-duration: .5s;
+   -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes showmenu {
+      from {height: 0;}
+    to {height: 300px;}
+}
+
+@-webkit-keyframes  showmenu {
+    from {height: 0;}
+    to {height: 300px;}
+}
+
+
+.hidemenu{
+    -webkit-animation-name: hidemenu; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+     animation-name: hidemenu;
+    animation-duration: .5s;
+   -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes hidemenu {
+      from {height: 300px;}
+    to {height: 0;}
+}
+
+@-webkit-keyframes  hidemenu {
+       from {height: 300px;}
+    to {height: 0;}
 }

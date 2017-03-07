@@ -25,7 +25,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
 
 
 
@@ -329,6 +329,7 @@
 </body>
 <script src="js/tether.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/functions.js"></script>
 <script>
 $(function () {
   	$('[data-toggle="tooltip"]').tooltip();

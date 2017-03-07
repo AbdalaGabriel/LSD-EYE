@@ -1,3 +1,6 @@
+
+
+<!-- Header  -->
 <header id="lsd-main-header">
 	<div class="header-container">
 		
@@ -30,4 +33,18 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Menu desplegable -->
+	<nav class="main-menu-container">
+		<ul>
+			<li><a href="#">Preferencias</a></li>
+			<li><a href="#">Cuentas</a></li>
+			<li><a href="preferences-channels.php">Canales</a></li>
+			<li><a href="#">Grupos</a></li>
+			<li><a href="#">Reportes</a></li>
+			<li><a href="#">Alertas</a></li>
+			<li><a class="logout"  href="#"><span class="icon"></span>Log Out</a> </li>
+		</ul>
+	</nav>
+
 </header>
