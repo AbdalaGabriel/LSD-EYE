@@ -39,9 +39,8 @@
 
 	<!--LATERAL BAR -->
 
-	<aside id="main-lateral-bar">
 		<?php include 'templates/lateral-bar.php'; ?>
-	</aside>
+
 
 	<main id="main-content" class="main">
 		<header>
@@ -55,7 +54,7 @@
 
 		<div id="main-container">
 			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12">
+				<div class="col-sm-12 col-md-12 col-lg-12 reset-padding">
 					<div class="panel audience-per-program">
 						<h2 class="panel-title">
 							Audiencia por programa HOY
@@ -141,6 +140,7 @@
 </body>
 <script src="js/tether.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/functions.js"></script>
 <script>
 $(function () {
   	$('[data-toggle="tooltip"]').tooltip();

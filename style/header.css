@@ -67,6 +67,7 @@ header#lsd-main-header {
     border: 1px solid #dcdcdc;
     overflow: hidden;
     height: 0;
+    opacity: 0;
 
 }
 
@@ -103,13 +104,13 @@ header#lsd-main-header {
 }
 
 @keyframes showmenu {
-      from {height: 0;}
-    to {height: 300px;}
+      from {height: 0;  opacity: 0;}
+    to {height: 300px;     opacity: 1;}
 }
 
 @-webkit-keyframes  showmenu {
-    from {height: 0;}
-    to {height: 300px;}
+      from {height: 0;  opacity: 0;}
+    to {height: 300px;     opacity: 1;}
 }
 
 
@@ -123,11 +124,11 @@ header#lsd-main-header {
 }
 
 @keyframes hidemenu {
-      from {height: 300px;}
-    to {height: 0;}
+      from {height: 300px; opacity:1;}
+    to {height: 0; opacity:0;}
 }
 
 @-webkit-keyframes  hidemenu {
-       from {height: 300px;}
-    to {height: 0;}
+      from {height: 300px; opacity:1;}
+    to {height: 0; opacity:0;}
 }

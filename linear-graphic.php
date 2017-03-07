@@ -37,11 +37,10 @@
 	<!-- HEADER -->
 	<?php include 'templates/header.php'; ?>
 
+	
 	<!--LATERAL BAR -->
 
-	<aside id="main-lateral-bar">
-		<?php include 'templates/lateral-bar.php'; ?>
-	</aside>
+	<?php include 'templates/lateral-bar.php'; ?>
 
 	<main id="main-content">
 		<header>
@@ -329,6 +328,7 @@
 </body>
 <script src="js/tether.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/functions.js"></script>
 <script>
 $(function () {
   	$('[data-toggle="tooltip"]').tooltip();

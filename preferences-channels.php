@@ -38,38 +38,26 @@
 	<!-- HEADER -->
 	<?php include 'templates/header.php'; ?>
 
+	
 	<!--LATERAL BAR -->
 
-	<aside id="main-lateral-bar">
-		<?php include 'templates/lateral-bar.php'; ?>
-	</aside>
+	<?php include 'templates/lateral-bar.php'; ?>
 
 	<main id="main-content-preferences" class="main">
-		<header id="preferences-header">
-			<h2 class="">Preferencias</h2>
-			<nav class="preferences-options">
-				<ul>
-					<li><a href="#">Generales</a></li>
-					<li><a href="#">Cuentas</a></li>
-					<li><a href="#" class="active">Canales</a></li>
-					<li><a href="#">Grupos</a></li>
-					<li><a href="#" >Reportes</a></li>
-					<li><a href="#">Alertas</a></li>
-				</ul>
-			</nav>
-		</header>
+		
+		<?php include 'templates/preferences-header.php'; ?>
 
 		<div id="main-container">
 			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12">
+				<div class="col-sm-12 col-md-12 col-lg-12 reset-padding">
 					<div class="panel grid channels">
 						<div class="grid-item channel">
 							<div class="grid-icon-container">
 								<span class="icon eye"></span>
 							</div>
 							<header>
-								<img src="" alt="">
-								<h2>Nombre canasl</h2>
+								<img src="img/channel-image.jpg" alt="">
+								<h2>Nombre canal</h2>
 							</header>
 							<div class="content o-hidden">
 								<div class="info-box">
@@ -97,8 +85,8 @@
 								<span class="icon eye"></span>
 							</div>
 							<header>
-								<img src="" alt="">
-								<h2>Nombre canasl</h2>
+								<img src="img/channel-image.jpg" alt="">
+								<h2>Nombre canal</h2>
 							</header>
 							<div class="content o-hidden">
 								<div class="info-box">
@@ -127,8 +115,8 @@
 								<span class="icon eye"></span>
 							</div>
 							<header>
-								<img src="" alt="">
-								<h2>Nombre canasl</h2>
+								<img src="img/channel-image.jpg" alt="">
+								<h2>Nombre canal</h2>
 							</header>
 							<div class="content o-hidden">
 								<div class="info-box">
@@ -157,7 +145,7 @@
 							</div>
 							<header>
 								<img src="img/channel-image.jpg" alt="">
-								<h2>Nombre canasl</h2>
+								<h2>Nombre canal</h2>
 							</header>
 							<div class="content o-hidden">
 								<div class="info-box">
@@ -185,8 +173,8 @@
 								<span class="icon eye"></span>
 							</div>
 							<header>
-								<img src="" alt="">
-								<h2>Nombre canasl</h2>
+								<img src="img/channel-image.jpg" alt="">
+								<h2>Nombre canal</h2>
 							</header>
 							<div class="content o-hidden">
 								<div class="info-box">
@@ -225,6 +213,7 @@
 </body>
 <script src="js/tether.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/functions.js"></script>
 <script>
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip();

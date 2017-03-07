@@ -39,9 +39,8 @@
 
 	<!--LATERAL BAR -->
 
-	<aside id="main-lateral-bar">
-		<?php include 'templates/lateral-bar.php'; ?>
-	</aside>
+	<?php include 'templates/lateral-bar.php'; ?>
+	
 
 	<main id="main-content">
 		<header>

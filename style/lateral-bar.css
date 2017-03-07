@@ -5,6 +5,86 @@
     float: left;
     position: fixed;
     margin: 36px 0 0 0 ;
+    z-index: 200;
+}
+
+.showsidebar{
+    -webkit-animation-name: showsidebar; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+     animation-name: showsidebar;
+    animation-duration: .5s;
+   -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes showsidebar {
+        from {left: -167px;}
+    to {left: 0;}
+}
+
+@-webkit-keyframes  showsidebar {
+        from {left: -167px;}
+    to {left: 0;}
+}
+
+
+.hidesidebar{
+    -webkit-animation-name: hidesidebar; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+     animation-name: hidesidebar;
+    animation-duration: .5s;
+   -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes hidesidebar {
+      from {left: 0;}
+    to {left: -167px;}
+}
+
+@-webkit-keyframes  hidesidebar {
+         from {left: 0;}
+    to {left: -167px;}
+}
+
+
+.reveal-lateral-bar {
+    position: fixed;
+    top: 36px;
+    left: 0;
+    background: #3c4250;
+    width: 4em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    color: white ;
+    cursor: pointer;
+    z-index: 199;
+}
+
+
+.reveal-lateral-bar:hover{
+	background: #616671;
+	color: white;
+}
+
+.reveal-lateral-bar a{
+    
+    color: white ;
+
+}
+
+.reveal .icon{
+	display: block;
+    width: 25px;
+    height: 25px;
+    float: right;
+    background: white;
+    margin: .5em 1em;
+	mask-image: url("../img/svg-icons/show-menu.svg");
+	 -webkit-mask:url("../img/svg-icons/show-menu.svg") no-repeat 50% 50%;
+	 -webkit-mask-size: cover;
+ 	 mask-size: cover;
 }
 
 #main-lateral-bar .logo-container{

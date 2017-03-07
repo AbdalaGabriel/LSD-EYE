@@ -38,30 +38,18 @@
 	<!-- HEADER -->
 	<?php include 'templates/header.php'; ?>
 
+	
 	<!--LATERAL BAR -->
-
-	<aside id="main-lateral-bar">
-		<?php include 'templates/lateral-bar.php'; ?>
-	</aside>
+	
+	<?php include 'templates/lateral-bar.php'; ?>
+	
 
 	<main id="main-content-preferences" class="main">
-		<header id="preferences-header">
-			<h2 class="">Preferencias</h2>
-			<nav class="preferences-options">
-				<ul>
-					<li><a href="#">Generales</a></li>
-					<li><a href="#">Cuentas</a></li>
-					<li><a href="#">Canales</a></li>
-					<li><a href="#">Grupos</a></li>
-					<li><a href="#" class="active">Reportes</a></li>
-					<li><a href="#">Alertas</a></li>
-				</ul>
-			</nav>
-		</header>
+		<?php include 'templates/preferences-header.php'; ?>
 
 		<div id="main-container">
 			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12">
+				<div class="col-sm-12 col-md-12 col-lg-12 reset-padding">
 					<div class="panel reports">
 						<div class="report-option">
 							<input type="checkbox" class="pref-button" >
@@ -137,6 +125,7 @@
 </body>
 <script src="js/tether.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/functions.js"></script>
 <script>
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip();

@@ -1,25 +1,161 @@
 main{
-	padding: 36px 0 0 167px;
+    padding: 36px 0 0 167px;
     overflow: hidden;
     background: #f5f5f5;
 }
 
+/* Animaciones para main */
+
+    .no-menu{
+        -webkit-animation-name: nomenu; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: nomenu;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes nomenu {
+        from {padding: 36px 0 0 167px;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  nomenu {
+        from {padding: 36px 0 0 167px;}
+        to {padding: 36px 0 0 0;}
+    }
+
+
+    .with-menu{
+        -webkit-animation-name: withmenu; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: withmenu;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes withmenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 167px;}
+    }
+
+    @-webkit-keyframes  withmenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 167px;}
+    }
+
+
+    /* - Menu con Header de preferencias - */
+
+    .no-menu-preferences{
+        -webkit-animation-name: nomenu-preferences; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: nomenu-preferences;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes nomenu-preferences {
+        from {padding: 36px 0 0 167px;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  nomenu-preferences {
+        from {padding: 36px 0 0 167px;}
+        to {padding: 36px 0 0 0;}
+    }
+
+
+    .with-menu-preferences{
+        -webkit-animation-name: withmenu-preferences; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: withmenu-preferences;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes withmenu-preferences {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 167px;}
+    }
+
+    @-webkit-keyframes  withmenu-preferences {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 167px;}
+    }
+
+
+/* --- */
+
+#main-container > .row {
+    padding: 0 5em !important;
+}
+
 #main-content-preferences #preferences-header{
-	height: 160px !important;
+    height: 160px !important;
     background: #ea3f33 !important;
     overflow: hidden !important;
     color: white;
 }
 
+
+    /* - Header de preferencias - */
+
+    .no-menu-header-preferences{
+        -webkit-animation-name: nomenu-header-preferences; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: nomenu-header-preferences;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes nomenu-header-preferences {
+        from {padding: 0 ;}
+        to {padding: 0 0 0 3em;}
+    }
+
+    @-webkit-keyframes  nomenu-header-preferences {
+        from {padding: 0 ;}
+        to {padding: 0 0 0 3em;}
+    }
+
+
+    .with-menu-header-preferences{
+        -webkit-animation-name: withmenu-header-preferences; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: withmenu-header-preferences;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes withmenu--header-preferences {
+        from {padding-left: 0 0 0 3em;}
+        to {padding-left: 0;}
+    }
+
+    @-webkit-keyframes  withmenu-header-preferences {
+        from {padding-left: 0 0 0 3em;}
+        to {padding-left: 0;}
+    }
+
+
+/* --- */
+
+
 #preferences-header h2{
-	    font-family: roboto;
+        font-family: roboto;
     font-weight: 100;
     margin: 32px 0 0 35px;
     font-size: 35px;
 }
 
 #preferences-header nav{
-	    margin: 46px 0 0 18px;
+        margin: 46px 0 0 18px;
 }
 
 #preferences-header  nav ul{
@@ -38,7 +174,7 @@ main{
 
 #preferences-header nav ul li a{
     display: block;
-  	font-size: 17px;
+    font-size: 17px;
     text-transform: uppercase;
     padding-bottom: 15px;
     text-align: center;
@@ -109,6 +245,12 @@ main{
     padding-bottom: 5em;
 }
 
+
+{
+    padding: 0px 4em 0 2em;
+}
+
+
 #main-container .panel {
     background: white;
     box-shadow: 0px 5px 9px -5px rgba(0, 0, 0, 0.18);
@@ -127,15 +269,15 @@ main{
     right: 10px;
     top: 10px;
     mask-image: url("../img/svg-icons/info.svg");
-	-webkit-mask:url("../img/svg-icons/info.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
+    -webkit-mask:url("../img/svg-icons/info.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 
 
 }
 
 #main-container .panel h2.panel-title{
-	    font-size: 25px;
+        font-size: 25px;
     font-weight: 400;
 }
 
@@ -150,7 +292,7 @@ main{
 }
 
 .users-now .info{
-	background: white;
+    background: white;
 }
 .users-now .hour{
     font-size: 20px;
@@ -159,9 +301,9 @@ main{
 }
 
 .users-now .users-quantity{
-	font-size: 9vw;
-	margin: 0;
-	font-weight: 500;
+    font-size: 9vw;
+    margin: 0;
+    font-weight: 500;
 }
 
 .users-now .users-label{
@@ -174,51 +316,51 @@ main{
 }
 
 .users-label .icon{
-	width: 2.4vw;
+    width: 2.4vw;
     height: 2.4vw;
     background: white;
     display: inline-block;
     float: left;
     margin: 0 12px 0 0;
     mask-image: url("../img/svg-icons/user.svg");
-	-webkit-mask:url("../img/svg-icons/user.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
+    -webkit-mask:url("../img/svg-icons/user.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 }
 
 .users-label h2{
-	float: left;
-	margin: 0;
+    float: left;
+    margin: 0;
 
 }
 
 /* Panel de plataformas */
 
 .platforms-stats{ 
-	height: calc(380px - 40px);
+    height: calc(380px - 40px);
 }
 
 .platforms-stats .platform-container{
-	overflow: hidden;
-	    margin-top: 48px;
+    overflow: hidden;
+        margin-top: 48px;
 }
 
 .platforms-stats .desktop{
-	margin-top: 30px !important;
+    margin-top: 30px !important;
 }
 
 
 
 .platform-container .platform-name h2{
-	float: left;
-	text-transform: uppercase;
-	color: #3c4040;
-	font-size: 15px !important;
-	font-weight: 400 !important;
-	margin: 1.5em 0 1em 0;
+    float: left;
+    text-transform: uppercase;
+    color: #3c4040;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    margin: 1.5em 0 1em 0;
 }
 .platform-container .percentage{
-	float: right;
+    float: right;
     font-size: 30px;
     font-weight: bold;
     margin: 0;
@@ -262,54 +404,54 @@ main{
 /*desktop*/
 
 .platforms-stats  .desktop .real-time-percentage-bar{
-	background: #ea3f33;
+    background: #ea3f33;
 }
 
 .platforms-stats  .desktop .percentage{
-	color: #ea3f33;
+    color: #ea3f33;
 }
 
 .platforms-stats  .desktop .platform-name .icon{
     mask-image: url("../img/svg-icons/desktop.svg");
-	-webkit-mask:url("../img/svg-icons/desktop.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
+    -webkit-mask:url("../img/svg-icons/desktop.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 }
 
 
 /*Mobile-app*/
 
 .platforms-stats  .mobile-app .real-time-percentage-bar{
-	background: #8bc149;
+    background: #8bc149;
 }
 
 .platforms-stats  .mobile-app .percentage{
-	color: #8bc149;
+    color: #8bc149;
 }
 
 .platforms-stats  .mobile-app .platform-name .icon{
     mask-image: url("../img/svg-icons/mobile-app.svg");
-	-webkit-mask:url("../img/svg-icons/mobile-app.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
+    -webkit-mask:url("../img/svg-icons/mobile-app.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 }
 
 
 /*Mobile-web*/
 
 .platforms-stats  .mobile-web .real-time-percentage-bar{
-	background: #10bdfa;
+    background: #10bdfa;
 }
 
 .platforms-stats  .mobile-web .percentage{
-	color: #10bdfa;
+    color: #10bdfa;
 }
 
 .platforms-stats  .mobile-web .platform-name .icon{
     mask-image: url("../img/svg-icons/mobile-web.svg");
-	-webkit-mask:url("../img/svg-icons/mobile-web.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
+    -webkit-mask:url("../img/svg-icons/mobile-web.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 }
 
 
@@ -317,17 +459,17 @@ main{
 /*Paneles numéricos */
 
 .numeric{    
-	height: calc(115px - 36px);
-	margin: 10px 0 0 0  !important;
+    height: calc(115px - 36px);
+    margin: 10px 0 0 0  !important;
 }
 
 .numeric:first-child{
-	margin: 30px 0 0 0 !important;
+    margin: 30px 0 0 0 !important;
 }
 
 
 .numeric .number-container{
-	    margin: 0 0 10px 25%;
+        margin: 0 0 10px 25%;
 }
 
 .numeric .number-container .icon{
@@ -342,28 +484,28 @@ main{
 
 .users .number-container .icon{
     mask-image: url("../img/svg-icons/user.svg");
-	-webkit-mask:url("../img/svg-icons/user.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
+    -webkit-mask:url("../img/svg-icons/user.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 }
 
 .hours .number-container .icon{
     mask-image: url("../img/svg-icons/hour.svg");
-	-webkit-mask:url("../img/svg-icons/hour.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
+    -webkit-mask:url("../img/svg-icons/hour.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 }
 
 
 .plays .number-container  .icon{
     mask-image: url("../img/svg-icons/play.svg");
-	-webkit-mask:url("../img/svg-icons/play.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
+    -webkit-mask:url("../img/svg-icons/play.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 }
 
 .numeric .number-container h3{
-	font-size: 2.4vw;
+    font-size: 2.4vw;
     font-weight: 500;
     margin: 0;
     display: inline-block;
@@ -402,7 +544,7 @@ main{
 
     display: inline-block;
     font-size: 30px;
-	color: #607d8d;
+    color: #607d8d;
     display: inline-block;
     text-align: right;
     width: 29%;
@@ -429,7 +571,7 @@ background:  #607d8d;
     font-weight: 400;
 }
 .program h2{
-	margin: 0;
+    margin: 0;
 }
 
 .program .player{
@@ -439,7 +581,7 @@ background:  #607d8d;
 }
 
 .radio-name-container{
-	 width: 40%;
+     width: 40%;
     float: left;
 }
 
@@ -454,7 +596,7 @@ background:  #607d8d;
 }
 
 .radio-name-container .radio-name{
-	    line-height: 48px;
+        line-height: 48px;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
@@ -467,7 +609,7 @@ background:  #607d8d;
 }
 
 .volume-container .volume-bar{
-	    width: 7em;
+        width: 7em;
     height: 9px;
     background: #283a4c;
 }
@@ -497,13 +639,13 @@ background:  #607d8d;
 /* Ver encoder */
 
 .encoder{
-	background: #3c4250 !important;
-	color: white;
-	padding: 0 !important;
+    background: #3c4250 !important;
+    color: white;
+    padding: 0 !important;
 }
 
  .encoder .icon-container .icon{
-	mask-image: url(../img/svg-icons/encoder.svg);
+    mask-image: url(../img/svg-icons/encoder.svg);
     -webkit-mask: url(../img/svg-icons/encoder.svg) no-repeat 50% 50%;
     -webkit-mask-size: cover;
     mask-size: cover;
@@ -522,7 +664,7 @@ background:  #607d8d;
 }
 
 .encoder a{
-	    display: block;
+        display: block;
     padding: 18px;
 }
 
@@ -563,7 +705,7 @@ background:  #607d8d;
 
 
 #preferences-header{
-	    height: 160px !important;
+        height: 160px !important;
     background: #ea3f33 !important;
     overflow: hidden !important;
     color: white;
