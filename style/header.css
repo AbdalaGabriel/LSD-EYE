@@ -3,7 +3,7 @@ header#lsd-main-header {
      height: 36px;
     line-height: 36px;
     position: fixed;
-    z-index: 10;
+    z-index: 105;
     width: 100%;
     background: white;
 }
