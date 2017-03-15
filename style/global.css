@@ -50,6 +50,16 @@ main{
     stroke: none !important;
 }
 
+
+.users-today-graphic .highcharts-color-0 {
+    fill: #88bdef !important;
+    stroke: none !important;
+}
+
 .o-hidden{
  overflow: hidden !important; 
+}
+
+.float-none{
+	float: none !important;
 }

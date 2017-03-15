@@ -786,3 +786,68 @@ background:  #607d8d;
     -webkit-transform: scale(1.0);
   }
 }
+
+
+.tabs-container{
+        overflow: hidden;
+    float: left;
+    margin: 2em 0 0 9em;
+}
+
+.tabs-centered{
+    overflow: hidden;
+     float: none;
+    margin: 4em auto 1em;
+    max-width: 63em;
+}
+
+
+.tabs-container .hint{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: left;
+    margin: 0 1em 0 0;
+    line-height: 34px;
+}
+.tabs{
+    border: 2px solid red;
+    float:left;
+    height: 30px;
+    line-height: 30px;
+    border-radius: .3em;
+    overflow: hidden;
+
+}
+
+.tabs .tab{
+    display: block;
+    float: left;
+    padding: 0 1em;
+    font-family: Roboto;
+    border-right: 2px solid #ea3f33;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+.tabs .tab:last-child{
+   
+    border-right: none;
+
+}
+
+.tabs .tab:hover{
+   
+    background: #ea3f33;
+    color: white;
+
+}
+
+
+.tabs .tab.active{
+   
+    background: #ea3f33;
+    color: white;
+
+}
