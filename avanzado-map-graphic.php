@@ -25,10 +25,10 @@
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 
 
 
@@ -150,6 +150,7 @@
 								<h2 class="panel-title">
 									Sistemas Operativos
 								</h2>
+								<div id="os-graphic" ></div>
 							</div>	
 						</div>
 						
@@ -400,61 +401,59 @@
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip();
 		
-		Highcharts.chart('browsers-graphic', {
-	    chart: {
-	        plotBackgroundColor: null,
-	        plotBorderWidth: 0,
-	        plotShadow: false
-	    },
-	    title: {
-	        text: ' ',
-	        align: 'center',
-	        verticalAlign: 'middle',
-	        y: 40
-	    },
-	    tooltip: {
-	        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-	    },
-	    plotOptions: {
-	        pie: {
-	            dataLabels: {
-	                enabled: true,
-	                distance: -50,
-	                style: {
-	                    fontWeight: 'bold',
-	                    color: 'white'
-	                }
-	            },
-	            startAngle: -90,
-	            endAngle: 90,
-	            center: ['50%', '75%']
+		 	// Mapa
+   	$.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=world-population.json&callback=?', function (data) {
+
+	    // Correct UK to GB in data
+	    $.each(data, function () {
+	        if (this.code === 'UK') {
+	            this.code = 'GB';
 	        }
-	    },
-	    series: [{
-	        type: 'pie',
-	        name: 'Nombre del browser:',
-	        innerSize: '50%',
-	        data: [
-	            ['Firefox',   10.38],
-	            ['IE',       56.33],
-	            ['Chrome', 24.03],
-	            ['Safari',    4.77],
-	            ['Opera',     0.91],
-	            {
-	                name: 'Proprietary or Undetectable',
-	                y: 0.2,
-	                dataLabels: {
-	                    enabled: false
-	                }
+	    });
+
+	    Highcharts.mapChart('map-graphic', {
+	        chart: {
+	            borderWidth: 0,
+	            map: 'custom/world'
+	        },
+
+	        title: {
+	            text: ''
+	        },
+
+	        legend: {
+	            enabled: false
+	        },
+
+	        mapNavigation: {
+	            enabled: true,
+	            buttonOptions: {
+	                verticalAlign: 'bottom'
 	            }
-	        ]
-	    }]
+	        },
+	        colors: ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9', 
+   					'#f15c80', '#e4d354', '#8085e8', '#8d4653', '#91e8e1'
+   					],
+
+	        series: [{
+	            name: 'Countries',
+	            color: '#943a4d',
+	            enableMouseTracking: false
+	        }, {
+	            type: 'mapbubble',
+	            name: 'Usuarios',
+	            joinBy: ['iso-a2', 'code'],
+	            data: data,
+	            minSize: 4,
+	            maxSize: '12%',
+	            tooltip: {
+	                pointFormat: '{point.code}: {point.z} thousands'
+	            }
+	        }]
+	    });
 	});
 
-
-	});
-
-
+});
 
 
 </script>

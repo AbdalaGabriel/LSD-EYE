@@ -3,11 +3,11 @@
 }
 
 .number-panel-container{
-        overflow: hidden;
+      overflow: hidden;
     background: #f3f3f3;
-    padding: 1vw;
+    padding: 1vw .5vw 1vw 1vw;
     float: left;
-        width: calc(25% - 2.4vw);
+    width: calc(25% - 1.9vw);
     margin: .2vw;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .info-container .number-label{
-        font-size: .85vw;
+        font-size: .7vw;
     text-transform: uppercase;
     font-weight: 300;
     margin: 0;
@@ -41,8 +41,32 @@
 
 
 .user{
-    mask-image: url("../img/svg-icons/user.svg");
-    -webkit-mask:url("../img/svg-icons/user.svg") no-repeat 50% 50%;
+    mask-image: url("../img/svg-icons/users-2.svg");
+    -webkit-mask:url("../img/svg-icons/users-2.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+
+.time-average{
+    mask-image: url("../img/svg-icons/time-average.svg");
+    -webkit-mask:url("../img/svg-icons/time-average.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+
+.time-total{
+    mask-image: url("../img/svg-icons/time-total.svg");
+    -webkit-mask:url("../img/svg-icons/time-total.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+
+.plays{
+    mask-image: url("../img/svg-icons/plays.svg");
+    -webkit-mask:url("../img/svg-icons/plays.svg") no-repeat 50% 50%;
     -webkit-mask-size: cover;
     mask-size: cover;
 }
@@ -209,3 +233,32 @@ fill: #8ac958 !important;
 
 
 
+#os-graphic  .highcharts-color-0 {
+fill: #632bb1 !important;
+}
+
+
+#os-graphic  .highcharts-color-1 {
+fill: #ff8e01 !important;
+}
+
+
+#os-graphic  .highcharts-color-2 {
+fill: #0e90ce !important;
+}
+
+
+#os-graphic  .highcharts-color-3 {
+fill: #ffd44f !important;
+}
+
+
+#os-graphic  .highcharts-color-4 {
+fill: #8ac958 !important;
+}
+
+#os-graphic tspan{
+        font-size: 14px;
+    font-weight: 100;
+    font-family: Roboto;
+}

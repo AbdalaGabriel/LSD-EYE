@@ -83,12 +83,12 @@
 								<span class="icon user"></span>
 								<div class="info-container">
 									<h2 class="number">1222</h2>
-									<h3 class="number-label">Usuario Totales</h3>
+									<h3 class="number-label">Usuarios Totales</h3>
 								</div>
 							</div>
 
 							<div class="number-panel-container ">
-								<span class="icon user"></span>
+								<span class="icon plays"></span>
 								<div class="info-container">
 									<h2 class="number">1222</h2>
 									<h3 class="number-label">Plays Totales</h3>
@@ -97,7 +97,7 @@
 
 
 							<div class="number-panel-container ">
-								<span class="icon user"></span>
+								<span class="icon time-average"></span>
 								<div class="info-container">
 									<h2 class="number">1222</h2>
 									<h3 class="number-label">Tiempo promedio</h3>
@@ -105,7 +105,7 @@
 							</div>
 
 							<div class="number-panel-container ">
-								<span class="icon user"></span>
+								<span class="icon time-total"></span>
 								<div class="info-container">
 									<h2 class="number">1222</h2>
 									<h3 class="number-label">Tiempo total</h3>

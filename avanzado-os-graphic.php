@@ -150,6 +150,7 @@
 								<h2 class="panel-title">
 									Sistemas Operativos
 								</h2>
+								<div id="os-graphic" ></div>
 							</div>	
 						</div>
 						
@@ -400,7 +401,7 @@
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip();
 		
-		Highcharts.chart('browsers-graphic', {
+		Highcharts.chart('os-graphic', {
 	    chart: {
 	        plotBackgroundColor: null,
 	        plotBorderWidth: 0,
