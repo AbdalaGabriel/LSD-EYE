@@ -20,6 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="style/main.css">
 	<link rel="stylesheet" type="text/css" href="style/graphics.css">
 	<link rel="stylesheet" type="text/css" href="style/advanced.css">
+	<link rel="stylesheet" type="text/css" href="style/responsive.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>LSD EYE - Plataforma de videos</title>
 

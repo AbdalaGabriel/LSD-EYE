@@ -38,6 +38,18 @@ header#lsd-main-header {
 	display: block;
 }
 
+.toggle-channels-mobile{
+    text-shadow: 0 0 black;
+    display: block;
+    min-width: 5em;
+    background: #eeeeee;
+    text-align: center;
+    float: left;
+    padding: 0 .5em;
+    margin: 0 0 0 4em;
+    display: none;
+}
+
 .channels-container a{
 	padding: 0 10px;
 }

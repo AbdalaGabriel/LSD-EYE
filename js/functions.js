@@ -97,6 +97,33 @@ function init()
 		console.log("- Side Menu click for show");
 
 	});
+
+	//Plegado canales en header responsive
+	var toggleChannels = $(".toggle-channels-mobile");
+	var channels = $(".channels-container");
+
+	toggleChannels.click(function(ev)
+	{
+		// Evitar propagacion para que los elementos del interior no disparen el evento mas de una vez
+		ev.stopPropagation();
+
+		console.log("- Channels click");
+
+		// Si ya tiene la clase showchannels, sinifica que esta abierto, cerrar.
+		if(channels.hasClass("showchannels"))
+		{
+			console.log("hide Channels");
+			channels.addClass("hidechannels");
+			channels.removeClass("showchannels");
+		}
+		//Sino, se coloca clase de animacion al menu oculto.
+		else
+		{
+			console.log("show Channels");
+			channels.addClass("showchannels");
+			channels.removeClass("hidechannels");
+		}
+	});
 }
 
 

@@ -1,0 +1,179 @@
+/*-  RESPONSIVE - TABLET Y CELULAR (HASTA 860PX) -*/
+
+@media screen and (max-width: 860px){
+    
+    /* Estilos del main*/
+    main{
+        padding: 36px 0 0 0 !important;
+    }
+
+    .with-menu{
+        -webkit-animation-name: withmenu; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: withmenu;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes withmenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  withmenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+
+    #main-container > .row {
+        padding: 0 2em !important;
+    }
+    
+
+    /* Global */  
+    .start-collumn {
+        padding-left: 15px !important;
+    }
+
+    .end-collumn{
+        padding-right: 15px !important;
+    }
+
+    /* Estilos del header*/  
+    .user-mail {
+        display: none;
+        float: left;
+        margin: 0 10px 0 0;
+    }
+
+    .toggle-channels-mobile{
+        display: block;
+        cursor: pointer;
+    }
+
+    .channels-container{
+        display: block;
+        background: white;
+        width: 14em;
+        left: 4em;
+        position: fixed;
+        top: 36px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .channels-container a {
+        width: calc(100% - 1em);
+        display: block;
+        text-align: left;
+        padding: 0 0 0 1em;
+
+    }
+
+    .channels-container a:first-child {
+        border-right:0;
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+
+    .showchannels{
+        -webkit-animation-name: showchannels; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+        animation-name: showchannels;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes showchannels {
+        from {height: 0;  opacity: 0;}
+        to {height: 73px;     opacity: 1;}
+    }
+
+    @-webkit-keyframes  showchannels {
+        from {height: 0;  opacity: 0;}
+        to {height: 73px;     opacity: 1;}
+    }
+
+
+    .hidechannels{
+        -webkit-animation-name: hidechannels; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+        animation-name: hidechannels;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes hidechannels {
+        from {height: 73px;  opacity: 1;}
+        to {height: 0;     opacity: 0;}
+    }
+
+    @-webkit-keyframes  hidechannels {
+        from {height: 73px;  opacity: 1;}
+        to {height: 0;     opacity: 0;}
+    }
+
+
+    /* Estilos del sidebar*/
+
+    .reveal-lateral-bar {
+        top: 0;
+        z-index: 107;
+    }  
+
+    #main-lateral-bar {
+        max-width: 167px;
+        background: #3c4250;
+        height: 100vh;
+        float: left;
+        position: fixed;
+        margin: 0;
+        z-index: 109;
+        left: -167px;
+    }
+
+    .showsidebar{
+        -webkit-animation-name: showsidebar; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+        animation-name: showsidebar;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes showsidebar {
+        from {left: -167px;}
+        to {left: 0;}
+    }
+
+    @-webkit-keyframes  showsidebar {
+        from {left: -167px;}
+        to {left: 0;}
+    }
+
+
+    .hidesidebar{
+        -webkit-animation-name: hidesidebar; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+        animation-name: hidesidebar;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes hidesidebar {
+        from {left: 0;}
+        to {left: -167px;}
+    }
+
+    @-webkit-keyframes  hidesidebar {
+        from {left: 0;}
+        to {left: -167px;}
+    }
+  
+} 
+

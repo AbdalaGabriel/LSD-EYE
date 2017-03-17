@@ -90,6 +90,43 @@ main{
 
 /* --- */
 
+
+/*-  RESPONSIVE - TABLET Y CELULAR (HASTA 860PX) -*/
+
+@media screen and (max-width: 860px){
+    main{
+        padding: 36px 0 0 0 !important;
+    }
+
+    .with-menu{
+        -webkit-animation-name: withmenu; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: withmenu;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes withmenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  withmenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+
+    #main-container > .row {
+        padding: 0 2em !important;
+    }
+  
+} 
+
+
+
+
 #main-container > .row {
     padding: 0 5em !important;
 }

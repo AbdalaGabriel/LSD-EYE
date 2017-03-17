@@ -5,6 +5,9 @@
 	<div class="header-container">
 		
 		<div class="left-column">
+			<span class="toggle-channels-mobile">
+				Canales
+			</span>
 			<nav class="channels-container">
 				<a href="#">Canal la red</a>
 				<a href="#">Otros canales</a>
