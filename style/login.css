@@ -1,0 +1,82 @@
+body{
+    background: #fafafa
+}
+
+@media screen and (max-width: 860px){
+    .logo-container img{
+        max-width: 9em;
+    }
+}
+
+.main-container{
+    padding:1.5em;
+}
+.logo-container{
+    text-align: center;
+    margin: 2em 0 3.5em;
+}
+
+.form-login-container{
+    max-width: 740px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.form-login-container form{
+    padding:25px;
+    box-shadow: 0px 5px 9px -5px rgba(0, 0, 0, 0.18);
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+
+.form-login-container p{
+    margin-bottom: 3.125em;
+}
+
+.form-login-container form .icon{
+    max-width: 2.5em;
+    float: left;
+}
+
+.form-login-container form input[type="text"]{
+    border: 0;
+    border-bottom: 1px solid #a4a4a4;
+    padding: 0 0 .8em .8em;
+    width: calc(100% - 4.4em);
+    margin: 0 0 0 1em;
+    font-size: 1.25em;
+    font-family: Roboto;
+
+}
+
+.form-login-container form input[type="submit"] {
+    border: none;
+    padding: 1em;
+    width: 100%;
+    color: white;
+    font-size: 1.25em;
+    border-radius: .4em;
+        cursor: pointer;
+    background: #ec483a;
+        max-height: 3.7em;
+}
+
+.form-login-container form input[type="submit"]:hover{
+    background: #ff6b5f;
+}
+
+.password-forgot {
+    padding: 1.8em 0 0 2em;
+    color: #a4a4a4;
+    font-family: Roboto;
+    font-size: 1.25em;
+}
+
+.login-footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: #3c4250;
+    width: 100%;
+    padding: .5em 0;
+}

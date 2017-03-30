@@ -63,3 +63,7 @@ main{
 .float-none{
 	float: none !important;
 }
+
+.float-right{
+	float: right; !important;
+}

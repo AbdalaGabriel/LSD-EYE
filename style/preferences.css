@@ -103,8 +103,8 @@
 
 .grid-item .grid-icon-container{
 	    display: block;
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     float: left;
     background: #ffffff;
     margin: 1.2em 7px;
@@ -116,8 +116,8 @@
 
 .grid-item .grid-icon-container .icon{
 	    display: block;
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
     margin: 5px;
     background: #000;
 
@@ -129,6 +129,16 @@
 	background: #414bb2;
     color: white;
     padding: 12px;
+}
+
+.groups header {
+    background: #8356c2;
+
+}
+
+.groups h2 {
+    font-weight: 300;
+    padding: 0 0 0 .5em;
 }
 
 .grid-item header img{
@@ -162,6 +172,36 @@
     font-weight: 400;
 }
 
+.grid-item ul {
+    padding: 1.25em;
+}
+
+.grid-item ul li{
+        list-style-type: none;
+        color: #939393;
+    font-size: 1.3em;
+    overflow: hidden;
+}
+
+.grid-item ul li a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 0 10px 7px 0;
+    background: #adadad;
+}
+.grid-item ul li a:hover {
+    opacity: .6;
+}
+
+.delete-group{
+    mask-image: url("../img/svg-icons/delete-group.svg");
+    -webkit-mask:url("../img/svg-icons/delete-group.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
 .grid-item footer{
 	position: absolute;
     bottom: 0;
@@ -180,7 +220,24 @@ margin: 0 auto;
     float: left;
     background: #a0a5d8;
     margin: 1.2em 7px;
+    cursor: pointer;
 
+}
+
+.grid-item footer .icons-container .icon:hover{
+    opacity: .8;
+
+}
+
+.add{
+    mask-image: url("../img/svg-icons/add.svg");
+    -webkit-mask:url("../img/svg-icons/add.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    width: 28px !important;
+    height: 28px !important;
+
+    float: right !important;
 }
 
 .delete{
@@ -229,3 +286,58 @@ margin: 0 auto;
 }
 
 
+/* Alerts */
+.table-container{
+    width: 100%;
+    margin: 40px 0 0 0;
+}
+
+table.alerts{
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+table.alerts th{
+    border-bottom: 1px solid #a3a3a3;
+    font-size: 17px;
+    font-weight: 300;
+}
+table.alerts td{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+
+    border-collapse: collapse;
+    padding: 27px .5em;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+table.alerts th:first-child{
+    text-align: left;
+    font-weight: 400;
+    padding: 17px .5em;
+}
+
+table.alerts td:first-child{
+    text-align: left;
+}
+
+table.alerts tr:nth-child(2n+1){
+    background-color: #f5f5f5;
+}
+
+table.alerts tr:first-child{
+    background:none;
+}
+
+table.alerts .icon{
+        display: block;
+    width: 29px;
+    height: 27px;
+    float: left;
+    background: #a0a5d8;
+    margin:0 auto;
+    cursor: pointer;
+
+}
