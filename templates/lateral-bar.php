@@ -11,17 +11,17 @@
 
 	<nav class="side-bar-menu">
 		<ul>
-			<li><a href="#" class="side-bar-option active real-time"><span class="icon "></span>Tiempo real</a></li>
+			<li><a href="#" class="side-bar-option active real-time"><span class="icon "></span><span class="option-name">Tiempo real</span></a></li>
 			
-			<li><a href="#" class="side-bar-option advanced"><span class="icon "></span>Avanzado</a></li>
+			<li><a href="#" class="side-bar-option advanced"><span class="icon "></span><span class="option-name">Avanzado</span></a></li>
 
-			<li><a href="#" class="side-bar-option QOS"><span class="icon "></span>QOS</a></li>
+			<li><a href="#" class="side-bar-option QOS"><span class="icon "></span><span class="option-name">QOS</span></a></li>
 
-			<li><a href="#" class="side-bar-option audience"><span class="icon "></span>Audiencia por programa</a></li>
+			<li><a href="#" class="side-bar-option audience"><span class="icon "></span><span class="option-name">Audiencia por programa</span></a></li>
 
-			<li><a href="#" class="side-bar-option programmation"><span class="icon "></span>Programación</a></li>
+			<li><a href="#" class="side-bar-option programmation"><span class="icon "></span><span class="option-name">Programación</span></a></li>
 
-			<li><a href="#" class="side-bar-option close-menu"><span class="icon "></span>Cerrar menú</a></li>
+			<li><a href="#" class="side-bar-option close-menu"><span class="icon "></span><span class="option-name">Cerrar menú</span></a></li>
 
 		</ul>
 		

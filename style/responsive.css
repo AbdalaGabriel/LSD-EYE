@@ -180,8 +180,22 @@
         position: fixed;
         margin: 0;
         z-index: 109;
-        left: -167px;
+        /*left: -167px;*/
     }
+
+
+    .logo-container .logo {
+    margin: .5em 0 0 0;
+    max-width: 1.8em;
+    }
+
+    #main-lateral-bar {
+            max-width: 50px;
+   }
+
+   #main-lateral-bar a .option-name{
+            display:  none;
+   }
 
     .showsidebar{
         -webkit-animation-name: showsidebar; /* Safari 4.0 - 8.0 */
@@ -202,6 +216,15 @@
         to {left: 0;}
     }
 
+    .copyright-container {
+        display: none;
+    }
+
+
+    #main-lateral-bar .logo-container {
+        height: 3em;
+        line-height: 3em;
+    }
 
     .hidesidebar{
         -webkit-animation-name: hidesidebar; /* Safari 4.0 - 8.0 */
