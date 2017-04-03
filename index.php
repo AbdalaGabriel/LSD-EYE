@@ -121,7 +121,7 @@
 
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-4 end-collumn">
-					<div class="panel numeric plays">
+					<div class="panel numeric plays col>
 					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container users">
 							<span class="icon"></span>
@@ -130,7 +130,7 @@
 						<h2 class="label">Plays acumulados en el día</h2>
 					</div>
 
-					<div class="panel numeric users">
+					<div class="panel numeric users col>
 					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container">
 							<span class="icon"></span>
@@ -139,7 +139,7 @@
 						<h2 class="label">Usuarios acumulados en el día</h2>
 					</div>
 
-					<div class="panel numeric hours">
+					<div class="panel numeric hours col>
 					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container">
 							<span class="icon"></span>

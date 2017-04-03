@@ -657,8 +657,8 @@ background:  #607d8d;
 
 .radio-name-container .play{
     display: block;
-    width: 33px;
-    height: 33px;
+    width: 2.2vw;
+    height: 2.2vw;
     float: left;
     margin: calc((48px - 33px)/2);
     background: url("../img/svg-icons/play-radio.svg");
@@ -666,10 +666,13 @@ background:  #607d8d;
 }
 
 .radio-name-container .radio-name{
-        line-height: 48px;
-    font-size: 16px;
+    line-height: 48px;
+    font-size: 1vw;
     font-weight: 400;
     margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -679,7 +682,7 @@ background:  #607d8d;
 }
 
 .volume-container .volume-bar{
-        width: 7em;
+        width: 6vw;
     height: 9px;
     background: #283a4c;
 }
@@ -687,16 +690,17 @@ background:  #607d8d;
 .volume-container .volume{
     background: #1780b2;
     height: 9px;
-    margin: calc((48px - 9px)/2) 1em;
+
+        margin: 1.7em 0 0 1vw;
     cursor: pointer;
     float: left;
-    width: calc(100% - 23px - 2em);
+    width: calc(100% - 4.5vw);
 }
 .volume-container .icon{
-    width: 23px;
-    height: 19px;
+    width: 1.5vw;
+    height: 1.3vw;
     display: block;
-    margin: calc((48px - 19px)/2) 0;
+    margin: 1vw 0 1vw 1vw;
     float: left;
     background: #283a4c;
     mask-image: url(../img/svg-icons/volume.svg);

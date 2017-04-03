@@ -1,11 +1,102 @@
 /*-  RESPONSIVE - TABLET Y CELULAR (HASTA 860PX) -*/
 
+
+@media screen and (max-width: 1200px){
+   .start-collumn {
+    padding-left: 15px !important;
+}
+
+
+.percentage-module h2 {
+    font-size: 1.4em;
+  
+}
+
+.radio-name-container .play {
+ 
+    width: 2.2em;
+    height: 2.2em;
+    
+    margin: .8em 1em;
+
+}
+
+.volume-container .icon {
+    width: 2.2em;
+    height: 1.8em;
+    margin: 1em 1em;
+    }
+
+
+.volume-container {
+    width: 30%;
+    float: left;
+}
+
+.radio-name-container .radio-name {
+    line-height: 48px;
+    font-size: 1.2em;
+ }
+
+.radio-name-container {
+    width: 70%;
+    float: left;
+}
+
+.volume-container .volume {
+
+    margin: 1.7em 0;
+    float: left;
+    width: calc(100% - 5.4em );
+}
+
+.numeric{
+        width: calc(33.33333333% - 20px - 3em);
+        float: left;
+        margin: 30px 0 0 0 !important;
+        min-height: 9vw;
+}
+
+.numeric.users{
+    
+    margin: 30px 20px 0 !important;
+
+}
+
+.numeric h2 {
+ 
+    font-size: 1.3vw;
+    
+}
+
+.numeric .number-container {
+    margin: 0 0 10px 17%;
+}
+
+.numeric .number-container .icon {
+    width: 3.4vw;
+    height: 3.4vw;
+    margin: .5em 1vw 0 0 !important;
+    }
+.numeric .number-container h3 {
+    font-size: 3vw;
+}
+.numeric .min-container {
+    font-size: 1.5vw;
+   
+    margin: 18px 0 0 .5em;
+}
+
+}
+
 @media screen and (max-width: 860px){
     
     /* Estilos del main*/
     main{
         padding: 36px 0 0 0 !important;
     }
+
+ 
 
     .with-menu{
         -webkit-animation-name: withmenu; /* Safari 4.0 - 8.0 */
@@ -28,7 +119,8 @@
 
 
     #main-container > .row {
-        padding: 0 2em !important;
+        /*padding: 0 2em !important;*/
+        padding: 0 !important;
     }
     
     #main-container .panel {
@@ -68,7 +160,7 @@
 
 
     .percentage-module h2 {
-    font-size: 13px;
+    font-size: 1.4em;
     text-align: center;
     width: 100%;
     }
@@ -180,7 +272,7 @@
         position: fixed;
         margin: 0;
         z-index: 109;
-        /*left: -167px;*/
+        left: -50px;
     }
 
 
@@ -247,3 +339,28 @@
   
 } 
 
+
+
+@media screen and (max-width: 460px){
+.program .player {
+    height: 107px;
+    background: #0e90ce;
+    margin: 24px 0 0 0;
+}
+
+.volume-container {
+    width: 100%;
+    
+}
+
+
+.numeric{
+    width: calc(100% - 39px);
+}
+
+
+.radio-name-container {
+    width: 100%;
+    
+}
+}
