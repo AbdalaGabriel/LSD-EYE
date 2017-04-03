@@ -52,28 +52,82 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12 reset-padding">
 					<div class="panel">
-					<div class="alerts table-container">
+						<div class="alerts table-container">
 							<table class="alerts">
-									<tr>
-										<th>Nombre</th>
-										<th>Canal</th>
-									</tr>
-									<tr>
-										<td>La red -Arriba de 4000</td>
-										<td>La red</td>
-										<td class="delete">
+								<tr>
+									<th>Nombre</th>
+									<th>Canal</th>
+									<th></th>
+								</tr>
+								<tr>
+									<td class="name">
+
+										La red -Arriba de 4000
+									</td>
+									<td class="channel"><span class="channel-logo-container">
+										<img src="img/alert-channel-image.jpg" alt="">
+									</span>La red</td>
+									
+									<td class="icon-td-container">
+										<span class="icon delete"></span>
+										<span class="icon edit"></span>
+										<span class="icon suspend"></span>
+									</td>
+								</tr>
+
+								<tr>
+										<td class="name">
+
+											La red -Arriba de 4000
+										</td>
+										<td class="channel"><span class="channel-logo-container">
+											<img src="img/alert-channel-image.jpg" alt="">
+										</span>La red</td>
+										
+										<td class="icon-td-container">
 											<span class="icon delete"></span>
-										</td>
-										<td class="edit">
 											<span class="icon edit"></span>
-										</td>
-										<td class="suspend">
 											<span class="icon suspend"></span>
 										</td>
 									</tr>
+
+								<tr>
+									<td class="name">
+
+										La red -Arriba de 4000
+									</td>
+									<td class="channel"><span class="channel-logo-container">
+										<img src="img/alert-channel-image.jpg" alt="">
+									</span>La red</td>
 									
+									<td class="icon-td-container">
+										<span class="icon delete"></span>
+										<span class="icon edit"></span>
+										<span class="icon suspend"></span>
+									</td>
+								</tr>
+
+								<tr class="alert">
+									<td class="name">
+
+										La red -Arriba de 4000
+									</td>
+									<td class="channel"><span class="channel-logo-container">
+										<img src="img/alert-channel-image.jpg" alt="">
+									</span>La red</td>
+									
+									<td class="icon-td-container">
+										<span class="icon ok"></span>
+										<span class="icon edit"></span>
+										<span class="icon suspend"></span>
+									</td>
+								</tr>
 							</table>
 						</div>
+
+						<span class="more-button">
+							+
+						</span>
 					</div>
 				</div>
 			</div>

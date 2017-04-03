@@ -247,6 +247,12 @@ margin: 0 auto;
  	mask-size: cover;
 }
 
+.ok{
+        background: url(../img/svg-icons/ok.svg) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
 .suspend{
     mask-image: url("../img/svg-icons/suspend.svg");
 	-webkit-mask:url("../img/svg-icons/suspend.svg") no-repeat 50% 50%;
@@ -277,7 +283,7 @@ margin: 0 auto;
 }
 
 
-.checked{
+.checked-icon{
     mask-image: url("../img/svg-icons/checked.svg");
 	-webkit-mask:url("../img/svg-icons/checked.svg") no-repeat 50% 50%;
 	-webkit-mask-size: cover;
@@ -289,27 +295,33 @@ margin: 0 auto;
 /* Alerts */
 .table-container{
     width: 100%;
-    margin: 40px 0 0 0;
+   margin: 20px 0;
 }
 
 table.alerts{
     width: 100%;
-
     border-collapse: collapse;
+}
+
+table.alerts tr{
+        background: #e9f7f3;
 }
 
 table.alerts th{
     border-bottom: 1px solid #a3a3a3;
     font-size: 17px;
     font-weight: 300;
+    text-align: left;
+    padding: 0 0 1em 0 !important;
 }
+
 table.alerts td{
     font-size: 20px;
-    text-align: center;
+    
     font-weight: 400;
 
     border-collapse: collapse;
-    padding: 27px .5em;
+    padding: .8em .5em;
     border-bottom: 1px solid #a3a3a3;
 }
 
@@ -323,21 +335,59 @@ table.alerts td:first-child{
     text-align: left;
 }
 
-table.alerts tr:nth-child(2n+1){
-    background-color: #f5f5f5;
+td.icon-td-container{
+        width: 30%;
 }
+
 
 table.alerts tr:first-child{
     background:none;
 }
 
+td.name{
+    width: 35%;
+
+}
+table.alerts tr.alert{
+background: #fdebea;
+}
+td.channel{
+    width: 35%;
+}
+
+table.alerts .channel-logo-container{
+    display: block;
+    float: left;
+    margin: 0 .5em 0 0;
+}
+
 table.alerts .icon{
-        display: block;
+       display: block;
     width: 29px;
     height: 27px;
-    float: left;
-    background: #a0a5d8;
-    margin:0 auto;
+    background: black;
+    margin: 0 .3em 0 0;
+    float: right;
     cursor: pointer;
+}
 
+.more-button{
+    display: block;
+    background: #ea3f33;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-family: Open sans-serif;
+    border-radius: 2em;
+    position: absolute;
+    cursor: pointer;
+    bottom: -1em;
+    right: .5em;
+}
+
+.more-button:hover{
+        background: #ff5245;
 }

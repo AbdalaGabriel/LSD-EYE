@@ -142,7 +142,7 @@
 
 						<div class="grid-item channel">
 						<div class="grid-icon-container">
-								<span class="icon checked"></span>
+								<span class="icon checked-icon"></span>
 							</div>
 							<header>
 								<img src="img/channel-image.jpg" alt="">
