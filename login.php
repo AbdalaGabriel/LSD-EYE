@@ -37,7 +37,7 @@
 	<div class="main-container">
 		
 
-		<div class="logo-container">
+		<div class="logo-container contact">
 			<img src="img/logo.png" alt="LSD EYE - Logotipo" class="logo">
 		</div>
 

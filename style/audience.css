@@ -25,7 +25,7 @@
 }
 .date h5{
 	font-size: 13px;
-	    margin: 0;
+	       margin: 1em 0 0 0;
 }
 .tabs-container .hint{
     font-size: 15px;
@@ -38,8 +38,8 @@
 .tabs{
     border: 2px solid red;
     float:left;
-    height: 30px;
-    line-height: 30px;
+    height: 1.8vw;
+    line-height: 1.8vw;
     border-radius: .3em;
     overflow: hidden;
 
@@ -51,7 +51,7 @@
     padding: 0 1em;
     font-family: Roboto;
     border-right: 2px solid #ea3f33;
-    font-size: 13px;
+    font-size: .75vw;
     text-transform: uppercase;
 }
 

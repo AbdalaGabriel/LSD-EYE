@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="style/lateral-bar.css">
 	<link rel="stylesheet" type="text/css" href="style/main.css">
 	<link rel="stylesheet" type="text/css" href="style/preferences.css">
-	<link rel="stylesheet" href="style/assets/simple-switch.css">
+	<link rel="stylesheet" type="text/css" href="style/assets/simple-switch.css">
 	<link rel="stylesheet" type="text/css" href="style/responsive.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>LSD EYE - Plataforma de videos</title>

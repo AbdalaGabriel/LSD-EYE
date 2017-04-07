@@ -71,7 +71,7 @@
 					</div>
 
 				</div>
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-sm-12 col-md-12 col-lg-4 responsive-padding">
 					<div class="panel platforms-stats">
 						<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="platform-container desktop">

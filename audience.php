@@ -57,10 +57,14 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12 reset-padding">
 					<div class="panel audience-per-program">
-						<h2 class="panel-title">
-							Audiencia por programa HOY
-						</h2>
-
+						<div class="title-date-container o-hidden float-left">
+							<h2 class="panel-title ">
+								Audiencia por programa HOY
+							</h2>
+							<div class="date">
+								<h5>02-04-2016 - 02-05-2016</h5>
+							</div>
+						</div>
 						<div class="tabs-container">
 							<h3 class="hint">Seleccione un intervalo</h3>
 							<div class="tabs">
@@ -72,9 +76,7 @@
 								<a href="#" class="tab">Otro rango</a>	
 							</div>
 						</div>
-						<div class="date">
-							<h5>02-04-2016 - 02-05-2016</h5>
-						</div>
+						
 						<div class="table-container">
 							<table class="audience">
 									<tr>

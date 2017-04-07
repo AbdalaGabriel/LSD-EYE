@@ -1,11 +1,110 @@
-/*-  RESPONSIVE - TABLET Y CELULAR (HASTA 860PX) -*/
 
+@media  screen and (max-width: 1520px){
+
+    .grid-item .info-box .data {
+        color: #939393;
+        font-size: .85vw;
+        font-weight: 400;
+        display: block;
+        padding: 0 1vw;
+    }
+
+    .grid-item footer .icons-container .icon {
+           display: block;
+    width: 18%;
+    height: 2.2vw;
+    float: left;
+    background: #a0a5d8;
+    margin: 1.2vw 3%;
+    cursor: pointer;
+    }
+
+    .grid-item footer .icons-container {
+        padding-left: 0;
+        width: 65%;
+        margin: 0px 17.5%;
+    }
+
+}
+
+
+@media screen and (max-width: 1360px){
+    .grid .grid-item {
+        width: 23%;
+        margin: 1% calc(1% - 2px) 0;
+        float: left;
+        border: 2px solid #efefef;
+        position: relative;
+    }
+    #main-container > .row {
+    padding: 0 3em !important;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 1405px){
+    .tabs-container {
+        overflow: hidden;
+        float: left;
+        margin: 2em 0;
+        clear: both;
+    }
+
+    .tabs {
+        border: 2px solid red;
+        float: left;
+        height: 2em;
+        line-height: 2em;
+        border-radius: .3em;
+        overflow: hidden;
+    }
+    
+    .tabs .tab{
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 1280px){
+.grid-item h2 {
+    font-weight: 300;
+    font-size: 1.1vw;
+}
+
+.grid-item .info-box .quantity {
+    font-size: 2vw;
+    font-weight: 500;
+    color: #939393;
+    display: block;
+}
+
+.grid-item .info-box .data {
+    color: #939393;
+    font-size: 1vw;
+    font-weight: 400;
+    display: block;
+    padding: 0 1vw;
+}
+}
 
 @media screen and (max-width: 1200px){
    .start-collumn {
-    padding-left: 15px !important;
+    padding: 0 !important;
 }
 
+.grid .grid-item {
+    width: 31.3%;
+    margin: 1% calc(1% - 2px) 0;
+    float: left;
+    border: 2px solid #efefef;
+    position: relative;
+}
+.responsive-padding{
+    padding: 0 !important;
+}
 
 .percentage-module h2 {
     font-size: 1.4em;
@@ -120,7 +219,7 @@
 
     #main-container > .row {
         /*padding: 0 2em !important;*/
-        padding: 0 !important;
+        padding: 0 1.5em !important;
     }
     
     #main-container .panel {
@@ -167,11 +266,11 @@
 
     /* Global */  
     .start-collumn {
-        padding-left: 15px !important;
+        padding: 0 !important;
     }
 
     .end-collumn{
-        padding-right: 15px !important;
+        padding: 0 !important;
     }
 
     /* Estilos del header*/  
@@ -275,10 +374,23 @@
         left: -50px;
     }
 
+    table.audience td {
+        font-size: 15px;
+    }
 
+    table.audience th {
+
+    font-size: 15px;
+ 
+}
     .logo-container .logo {
     margin: .5em 0 0 0;
     max-width: 1.8em;
+    }
+
+     .logo-container.contact .logo {
+    margin: .5em 0 0 0;
+    max-width: 6.8em;
     }
 
     #main-lateral-bar {
@@ -336,8 +448,123 @@
         from {left: 0;}
         to {left: -167px;}
     }
+
+    table.alerts td {
+    font-size: 1.2em;
+    }
+
+    .grid-item .info-box .quantity {
+    font-size: 3vw;
+    font-weight: 500;
+    color: #939393;
+    display: block;
+}
+
+.grid-item h2 {
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+.grid-item .info-box .data {
+    color: #939393;
+    font-size: 1.5vw;
+    font-weight: 400;
+    display: block;
+    padding: 0 1vw;
+}
   
 } 
+
+@media screen and (max-width: 740px){
+    .grid .grid-item {
+        width: 48%;
+        margin: 1% calc(1% - 2px) 0;
+        float: left;
+        border: 2px solid #efefef;
+        position: relative;
+    }
+
+    .grid-item .info-box .data {
+        font-size: 1em;
+     
+    }
+
+    .grid-item h2 {
+        font-weight: 300;
+        font-size: 1em;
+    }
+    .grid-item .info-box .quantity {
+    font-size: 2em;
+}
+.grid-item footer .icons-container {
+    padding-left: 0;
+    width: 14em;
+    margin: 0px auto;
+}
+.grid-item footer .icons-container .icon {
+    display: block;
+    width: 2.5em;
+    height: 2em;
+    background: #a0a5d8;
+    margin: 1.2vw 3%;
+    cursor: pointer;
+}
+}
+@media screen and (max-width: 540px){
+
+
+
+    .title-date-container{
+        float: none;
+    }
+    .tabs {
+        border: 2px solid red;
+        height: inherit;
+        line-height: 2em;
+        border-radius: .3em;
+        overflow: auto;
+        width: initial;
+     }
+    .tabs-container {
+        overflow: hidden;
+       float: inherit;
+        margin:2em 5% 0;
+        width: 90%;
+        clear: both;
+    }
+    .tabs-container .hint {
+
+        margin: 0 1em 1em 0;
+    }
+
+    .tabs .tab {
+        font-size: 1.1em;
+        width: 100%;
+        line-height: 2em;
+    }
+
+    .platform-container .percentage {
+    font-size: 25px;
+    padding-top: .5em;
+
+   }
+
+}
+
+
+
+@media screen and (max-width: 480px){
+    .audience-per-program .table-container {
+       
+        overflow-x: auto;
+      
+    }
+    td.icon-td-container {
+    width: 10%;
+}
+
+}
+
 
 
 
@@ -347,12 +574,32 @@
     background: #0e90ce;
     margin: 24px 0 0 0;
 }
+.numeric.users{
+    
+    margin: 30px 0 0 0 !important;
+
+}
 
 .volume-container {
     width: 100%;
     
 }
 
+.grid .grid-item {
+    width: 98%;
+    margin: 1% calc(1% - 2px) 0;
+    float: left;
+    border: 2px solid #efefef;
+    position: relative;
+}
+
+.grid-item .info-box .data {
+    font-size: 1.3em;
+}
+
+.grid-item .info-box .quantity {
+    font-size: 2em;
+}
 
 .numeric{
     width: calc(100% - 39px);
@@ -368,5 +615,34 @@
 .radio-name-container {
     width: 100%;
     
+}
+}
+
+@media screen and (max-width: 360px){
+.grid-item .info-box .quantity {
+    font-size: 2em;
+}
+
+.grid-item .info-box .data {
+        font-size: 1em;
+     
+    }
+
+    .grid-item footer .icons-container {
+    padding-left: 0;
+    width: 12em;
+    margin: 0px auto;
+}
+.grid-item footer .icons-container .icon {
+    display: block;
+    width: 2.4em;
+    height: 1.82em;
+    background: #a0a5d8;
+    margin: 2em 2% 1em;
+    cursor: pointer;
+}
+.grid-item .content {
+    margin: 0 0 2vw 0;
+    padding: .5em;
 }
 }
