@@ -65,7 +65,7 @@
 						</h1>
 
 						<div class="users-label">
-							<span class="icon"></span>
+							<img id="person" class="img-vector" src="img/svg-icons/user.svg"">
 							<h2>Usuarios ahora</h2>
 						</div>
 					</div>
@@ -77,7 +77,9 @@
 						<div class="platform-container desktop">
 
 							<div class="platform-name">
-								<span class="icon"></span>
+								
+								<img id="desktop-icon" class="img-vector" src="img/svg-icons/desktop.svg"">
+
 								<h2>Desktop</h2>
 							</div>
 							<h3 class="percentage"><span class="number">70.14</span>%</h3>
@@ -91,7 +93,8 @@
 
 						<div class="platform-container mobile-app">
 							<div class="platform-name">
-								<span class="icon"></span>	
+									
+								<img id="mobile-app-icon" class="img-vector" src="img/svg-icons/mobile-app.svg"">
 								<h2>Mobile App</h2>
 							</div>
 
@@ -106,7 +109,8 @@
 
 						<div class="platform-container mobile-web">
 							<div class="platform-name">
-								<span class="icon"></span>
+								
+								<img id="mobile-web-icon" class="img-vector" src="img/svg-icons/mobile-web.svg"">
 								<h2>Mobile Web</h2>
 							</div>
 							<h3 class="percentage"><span class="number">70.14</span>%</h3>
@@ -124,7 +128,8 @@
 					<div class="panel numeric plays col>
 					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container users">
-							<span class="icon"></span>
+							
+							<img id="plays-icon" class="img-vector" src="img/svg-icons/play.svg">
 							<h3>12224 </h3>
 						</div>
 						<h2 class="label">Plays acumulados en el día</h2>
@@ -133,7 +138,8 @@
 					<div class="panel numeric users col>
 					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container">
-							<span class="icon"></span>
+							
+							<img id="user-icon" class="img-vector" src="img/svg-icons/user.svg">
 							<h3>3010</h3>
 						</div>
 						<h2 class="label">Usuarios acumulados en el día</h2>
@@ -142,7 +148,8 @@
 					<div class="panel numeric hours col>
 					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 						<div class="number-container">
-							<span class="icon"></span>
+							
+							<img id="hour-icon" class="img-vector" src="img/svg-icons/hour.svg"">
 							<h3>122 <span class="min-container">min</span></h3>
 						</div>
 						<h2 class="label">Tiempo promedio</h2>
@@ -292,12 +299,16 @@
 
 						<div class="player">
 							<div class="radio-name-container">
-								<a href="#" data-toggle="tooltip" data-placement="bottom"  title="play" class="play"></a>
+								<a href="#">
+								<img id="play-radio" class="img-vector" src="img/svg-icons/play-radio.svg"">
+								</a>
+
 								<h4 class="radio-name">Radio La Red</h4>
 							</div>
 
 							<div class="volume-container">
-								<span class="icon"></span>
+								
+								<img id="volume" class="img-vector" src="img/svg-icons/volume.svg">
 								<div class="volume">
 									<div class="volume-bar"></div>
 								</div>
@@ -309,7 +320,8 @@
 						<a href="#" data-toggle="tooltip" title="Ver encoder">
 						<div class="see-encoder-container">
 							<div class="icon-container">
-								<span class="icon"></span>
+								
+								<img id="encoder" class="img-vector" src="img/svg-icons/encoder.svg"">
 							</div>
 							<div class="texts">
 								<h2>Ver encoder</h2>

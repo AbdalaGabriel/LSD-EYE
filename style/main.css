@@ -313,15 +313,9 @@ main{
     width: 2em;
     height: 2em;
     display: block;
-    background: gray;
     position: absolute;
     right: 10px;
     top: 10px;
-    mask-image: url("../img/svg-icons/info.svg");
-    -webkit-mask:url("../img/svg-icons/info.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-
 
 }
 
@@ -383,17 +377,18 @@ main{
     margin: 0 auto;
 }
 
-.users-label .icon{
+.users-label svg{
     width: 2.4vw;
     height: 2.4vw;
-    background: white;
+
     display: inline-block;
     float: left;
     margin: 0 12px 0 0;
-    mask-image: url("../img/svg-icons/user.svg");
-    -webkit-mask:url("../img/svg-icons/user.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
+
+}
+
+.users-label svg path{
+    fill: white;
 }
 
 .users-label h2{
@@ -460,9 +455,8 @@ main{
     background: red;
 }
 
-.platform-name .icon{
+.platform-name svg{
     display: block;
-    background: black;
     width: 40px;
     height: 38px;
     float: left;
@@ -480,13 +474,6 @@ main{
     color: #ea3f33;
 }
 
-.platforms-stats  .desktop .platform-name .icon{
-    mask-image: url("../img/svg-icons/desktop.svg");
-    -webkit-mask:url("../img/svg-icons/desktop.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-}
-
 
 /*Mobile-app*/
 
@@ -498,12 +485,7 @@ main{
     color: #8bc149;
 }
 
-.platforms-stats  .mobile-app .platform-name .icon{
-    mask-image: url("../img/svg-icons/mobile-app.svg");
-    -webkit-mask:url("../img/svg-icons/mobile-app.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-}
+
 
 
 /*Mobile-web*/
@@ -516,12 +498,7 @@ main{
     color: #10bdfa;
 }
 
-.platforms-stats  .mobile-web .platform-name .icon{
-    mask-image: url("../img/svg-icons/mobile-web.svg");
-    -webkit-mask:url("../img/svg-icons/mobile-web.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-}
+
 
 
 
@@ -541,37 +518,16 @@ main{
         margin: 0 0 10px 25%;
 }
 
-.numeric .number-container .icon{
+.numeric .number-container svg{
     width: 2.4vw;
     height: 2.4vw;
-    background: black;
     display: inline-block;
-        margin: 0 12px 0 0;
-            float: left;
+    margin: 0 12px 0 0;
+    float: left;
 }
 
 
-.users .number-container .icon{
-    mask-image: url("../img/svg-icons/user.svg");
-    -webkit-mask:url("../img/svg-icons/user.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-}
 
-.hours .number-container .icon{
-    mask-image: url("../img/svg-icons/hour.svg");
-    -webkit-mask:url("../img/svg-icons/hour.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-}
-
-
-.plays .number-container  .icon{
-    mask-image: url("../img/svg-icons/play.svg");
-    -webkit-mask:url("../img/svg-icons/play.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-}
 
 .numeric .number-container h3{
     font-size: 2.4vw;
@@ -661,8 +617,7 @@ background:  #607d8d;
     height: 2.2vw;
     float: left;
     margin: calc((48px - 33px)/2);
-    background: url("../img/svg-icons/play-radio.svg");
-    background-size: cover;
+
 }
 
 .radio-name-container .radio-name{
@@ -696,17 +651,14 @@ background:  #607d8d;
     float: left;
     width: calc(100% - 4.5vw);
 }
-.volume-container .icon{
+.volume-container svg{
     width: 1.5vw;
     height: 1.3vw;
     display: block;
     margin: 1vw 0 1vw 1vw;
     float: left;
     background: #283a4c;
-    mask-image: url(../img/svg-icons/volume.svg);
-    -webkit-mask: url(../img/svg-icons/volume.svg) no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
+
 }
 
 
@@ -718,16 +670,12 @@ background:  #607d8d;
     padding: 0 !important;
 }
 
- .encoder .icon-container .icon{
-    mask-image: url(../img/svg-icons/encoder.svg);
-    -webkit-mask: url(../img/svg-icons/encoder.svg) no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
+ .encoder  .icon-container svg{
+
     width: 24px;
     height: 26px;
     display: block;
-    background: white;
-        margin: 12px 12px;
+    margin: 12px 12px;
 }
 
 .encoder .icon-container {
@@ -754,7 +702,7 @@ background:  #607d8d;
 
 .encoder a:hover{
    
-   background:  rebeccapurple;;
+   background:  rebeccapurple;
 }
 
 

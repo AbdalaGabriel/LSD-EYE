@@ -90,10 +90,6 @@
     float: right;
     background: white;
     margin: .5em 1em;
-	mask-image: url("../img/svg-icons/show-menu.svg");
-	-webkit-mask:url("../img/svg-icons/show-menu.svg") no-repeat 50% 50%;
-	-webkit-mask-size: cover;
- 	mask-size: cover;
 }
 
 #main-lateral-bar .logo-container{
@@ -121,64 +117,16 @@
 }
 
 
-.side-bar-menu a span.icon {
+.side-bar-menu a svg {
     display: block;
     width: 25px;
     height: 25px;
     float: left;
-    background: white;
     margin: 1.2em 1em;
 }
 
-/* ICONOS DE MENU */
-
-.side-bar-menu li a.audience .icon{
-	 mask-image: url("../img/svg-icons/audience.svg");
-	 -webkit-mask:url("../img/svg-icons/audience.svg") no-repeat 50% 50%;
-	 -webkit-mask-size: cover;
- 	 mask-size: cover;
-   	 margin: .3em 1em 1em 1em;
-}
-
-.side-bar-menu li a.audience {
-	line-height: inherit;
-	padding: 1em 0 0 0;
-	height: 45px;
-}
-
-.side-bar-menu li a.real-time .icon{
-	 mask-image: url("../img/svg-icons/real-time.svg");
-	 -webkit-mask:url("../img/svg-icons/real-time.svg") no-repeat 50% 50%;
-	 -webkit-mask-size: cover;
- 	 mask-size: cover;
-}
-
-.side-bar-menu li a.advanced .icon{
-	 mask-image: url("../img/svg-icons/advanced.svg");
-	 -webkit-mask:url("../img/svg-icons/advanced.svg") no-repeat 50% 50%;
-	 -webkit-mask-size: cover;
- 	 mask-size: cover;
-}
-
-.side-bar-menu li a.QOS .icon{
-	 mask-image: url("../img/svg-icons/qos.svg");
-	 -webkit-mask:url("../img/svg-icons/qos.svg") no-repeat 50% 50%;
-	 -webkit-mask-size: cover;
- 	 mask-size: cover;
-}
-
-.side-bar-menu li a.programmation .icon{
-	 mask-image: url("../img/svg-icons/programmation.svg");
-	 -webkit-mask:url("../img/svg-icons/programmation.svg") no-repeat 50% 50%;
-	 -webkit-mask-size: cover;
- 	 mask-size: cover;
-}
-
-.side-bar-menu li a.close-menu .icon{
-	 mask-image: url("../img/svg-icons/close-menu.svg");
-	 -webkit-mask:url("../img/svg-icons/close-menu.svg") no-repeat 50% 50%;
-	 -webkit-mask-size: cover;
- 	 mask-size: cover;
+.side-bar-menu a svg path{
+    fill: white;
 }
 
 .side-bar-menu a{
@@ -197,6 +145,11 @@
 
 .side-bar-menu a.active{
 	background: #ea3f33;
+}
+
+.side-bar-menu a.audience{
+    
+    line-height: 14px;
 }
 
 .copyright-container{
