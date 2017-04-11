@@ -353,9 +353,7 @@ main{
 } 
 
 
-.users-now .info{
-    background: white;
-}
+
 .users-now .hour{
     font-size: 20px;
     color: black;
@@ -377,7 +375,7 @@ main{
     margin: 0 auto;
 }
 
-.users-label svg{
+.users-label svg, .users-label .img-vector{
     width: 2.4vw;
     height: 2.4vw;
 
@@ -387,7 +385,7 @@ main{
 
 }
 
-.users-label svg path{
+.users-label svg, .users-label .img-vector path{
     fill: white;
 }
 
@@ -455,7 +453,7 @@ main{
     background: red;
 }
 
-.platform-name svg{
+.platform-name svg, .platform-name .img-vector{
     display: block;
     width: 40px;
     height: 38px;
@@ -518,7 +516,7 @@ main{
         margin: 0 0 10px 25%;
 }
 
-.numeric .number-container svg{
+.numeric .number-container svg, .numeric .number-container .img-vector{
     width: 2.4vw;
     height: 2.4vw;
     display: inline-block;
@@ -630,6 +628,23 @@ background:  #607d8d;
     text-overflow: ellipsis;
 }
 
+.radio-name-container a{
+    width: 2em;
+    float: left;
+    padding: 1em;
+    display: block;
+}
+
+#volume{
+    width: 2em;
+    float: left;
+    padding: 1em .5em;
+    display: block;
+}
+
+.radio-name-container a img{
+   width: 100%
+}
 
 .volume-container{
     width: 60%;
@@ -646,19 +661,10 @@ background:  #607d8d;
     background: #1780b2;
     height: 9px;
 
-        margin: 1.7em 0 0 1vw;
+    margin: 1.7em 0 0 1vw;
     cursor: pointer;
     float: left;
     width: calc(100% - 4.5vw);
-}
-.volume-container svg{
-    width: 1.5vw;
-    height: 1.3vw;
-    display: block;
-    margin: 1vw 0 1vw 1vw;
-    float: left;
-    background: #283a4c;
-
 }
 
 
@@ -670,7 +676,7 @@ background:  #607d8d;
     padding: 0 !important;
 }
 
- .encoder  .icon-container svg{
+ .encoder  .icon-container svg,  .encoder  .icon-container .img-vector{
 
     width: 24px;
     height: 26px;
@@ -839,4 +845,9 @@ background:  #607d8d;
     background: #ea3f33;
     color: white;
 
+}
+
+
+.st0 {
+    fill: white;
 }

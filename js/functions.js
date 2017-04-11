@@ -2,7 +2,7 @@ $(function() {
     console.log( "Document ready!" );
 	init(); 
 	initSelect();
-	replaceImagesForVectors()  	
+	//replaceImagesForVectors()  	
 });
 
 function replaceImagesForVectors()

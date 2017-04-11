@@ -6,6 +6,7 @@
     position: fixed;
     margin: 36px 0 0 0 ;
     z-index: 104;
+        width: 167px;
 }
 
 .showsidebar{
@@ -83,12 +84,11 @@
 
 }
 
-.reveal .icon{
+.reveal img{
 	display: block;
     width: 25px;
     height: 25px;
     float: right;
-    background: white;
     margin: .5em 1em;
 }
 
@@ -117,7 +117,7 @@
 }
 
 
-.side-bar-menu a svg {
+.side-bar-menu a svg, .side-bar-menu .img-vector {
     display: block;
     width: 25px;
     height: 25px;
@@ -125,7 +125,7 @@
     margin: 1.2em 1em;
 }
 
-.side-bar-menu a svg path{
+.side-bar-menu a svg, path{
     fill: white;
 }
 
@@ -138,6 +138,8 @@
 }
 
 
+
+
 .side-bar-menu a:hover{
 	background: #616671;
 	color: white;
@@ -148,9 +150,17 @@
 }
 
 .side-bar-menu a.audience{
-    
     line-height: 14px;
+    
+    position: relative;
 }
+
+.side-bar-menu .audience .option-name{
+    
+    position: absolute;
+    top: 1em;
+}
+
 
 .copyright-container{
 	position: absolute;

@@ -57,7 +57,7 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-4 start-collumn">
 					<div class="panel users-now">
-						<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
+						<img class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet" src="img/svg-icons/info.svg" />
 						<span class="hour">20:12:57 hs.</span>
 
 						<h1 class="users-quantity">
@@ -73,7 +73,7 @@
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-4 responsive-padding">
 					<div class="panel platforms-stats">
-						<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
+						<img class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet" src="img/svg-icons/info.svg" />
 						<div class="platform-container desktop">
 
 							<div class="platform-name">
@@ -125,8 +125,8 @@
 
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-4 end-collumn">
-					<div class="panel numeric plays col>
-					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
+					<div class="panel numeric plays col">
+					<img class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet" src="img/svg-icons/info.svg" />
 						<div class="number-container users">
 							
 							<img id="plays-icon" class="img-vector" src="img/svg-icons/play.svg">
@@ -135,8 +135,8 @@
 						<h2 class="label">Plays acumulados en el día</h2>
 					</div>
 
-					<div class="panel numeric users col>
-					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
+					<div class="panel numeric users col">
+					<img class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet" src="img/svg-icons/info.svg" />
 						<div class="number-container">
 							
 							<img id="user-icon" class="img-vector" src="img/svg-icons/user.svg">
@@ -145,8 +145,8 @@
 						<h2 class="label">Usuarios acumulados en el día</h2>
 					</div>
 
-					<div class="panel numeric hours col>
-					<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
+					<div class="panel numeric hours col">
+					<img class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet" src="img/svg-icons/info.svg" />
 						<div class="number-container">
 							
 							<img id="hour-icon" class="img-vector" src="img/svg-icons/hour.svg"">
