@@ -74,6 +74,14 @@
         font-size: 1em;
     }
 
+    .tabs-container.audience-tabs {
+        overflow: hidden;
+        float: inherit;
+        margin: 9em 0 1em 0;
+        clear: both;
+        max-width: 58em;
+    }
+
 }
 
 @media screen and (max-width: 1280px){
@@ -326,6 +334,25 @@
     margin: 0 12px 0 0;
 }
 
+.report-option .button-container {
+    float: right;
+    margin: 1em auto;
+    overflow: hidden;
+    width: 8em;
+}
+
+.report-option .content {
+    float: left;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #a3a3a3;
+    width: 100%;
+    margin: 0 0 3em 0;
+}
+
+.report-option {
+    overflow: hidden;
+    margin: 0 0 40px 0;
+}
  
 
 #preferences-header nav {
@@ -758,6 +785,13 @@
     margin: 0 0 10px 17%;
     max-width: 15em;
     margin: 0 auto 1em;
+}
+
+.report-option .button-container {
+    float: inherit;
+    margin: 1em auto;
+    overflow: hidden;
+    width: 8em;
 }
 
 

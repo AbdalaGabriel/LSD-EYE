@@ -65,7 +65,7 @@
 								<h5>02-04-2016 - 02-05-2016</h5>
 							</div>
 						</div>
-						<div class="tabs-container">
+						<div class="tabs-container audience-tabs">
 							<h3 class="hint">Seleccione un intervalo</h3>
 							<div class="tabs">
 								<a href="#" class="tab active">Hoy</a>

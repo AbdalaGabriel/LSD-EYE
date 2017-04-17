@@ -109,7 +109,7 @@
 
 					<div class="action-buttons-container">
 						<a href="#" class="cancel action-button">Cancelar</a>
-						<a href="#" class="ok action-button">Guardar</a>
+						<a href="#" class="save action-button">Guardar</a>
 					</div>
 				</div>
 			</div>

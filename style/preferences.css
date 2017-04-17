@@ -78,14 +78,14 @@
     
 }
 
-.ok{
+.save{
 	background: #ec473a;
 }
 
 .cancel{
 	background: #c4c3c3;
 	    margin-right: 0 !important;
-    margin-left: 14% !important;
+    margin-left: 10% !important;
 }
 
 .grid{
