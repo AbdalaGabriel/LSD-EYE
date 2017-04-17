@@ -893,6 +893,18 @@
    margin:30px 0 0 !important;
 }
 
+.full-number-panel-container .info-container .number {
+    margin: 0;
+    font-size: 3.2em;
+}
+
+.full-number-panel .info-container .number-label {
+    font-size: 1.4em;
+}
+
+.full-number-panel-container .info-container .number .seg {
+    font-size: .5em;
+}
 
 }
 
