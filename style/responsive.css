@@ -56,8 +56,8 @@
 @media screen and (max-width: 1405px){
     .tabs-container {
         overflow: hidden;
-        float: left;
-        margin: 2em 0;
+        float: inherit;
+            margin: 3em 0 1em 3em;
         clear: both;
     }
 
@@ -86,6 +86,7 @@
     display: block;
 }
 
+
 .grid-item .info-box .data {
     color: #939393;
     font-size: 1vw;
@@ -100,8 +101,68 @@
     padding: 0 !important;
 }
 
+.info-container .number-label {
+    font-size: .78em;
+}
+
+.info-container .number {
+
+    font-size: 2em;
+
+}
+
+.number-panel-container .icon {
+    display: block;
+    background: black;
+    width: 3em;
+    height: 3em;
+    float: left;
+    margin: 0 .5vw 0 0;
+}
+
+.users-now {
+
+        height: auto;
+
+    }
+
+ .users-label h2 {
+        float: left;
+        margin: 0;
+        font-size: 20px;
+    }
 
 
+
+.users-label svg, .users-label .img-vector {
+    width: 1.4em;
+    height: inherit;
+    display: inline-block;
+    float: left;
+    margin: 0 12px 0 0;
+}
+
+ .users-now .users-label {
+        width: 246px;
+
+    }
+
+.users-now .users-label {
+    font-size: 2.4em;
+    text-transform: uppercase;
+    font-weight: 500;
+    overflow: hidden;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+.users-label svg, .users-label .img-vector {
+    width: 1.4em !important;
+    height: inherit;
+    display: block;
+    float: left;
+    margin: 0 12px 0 0;
+}
 
 .numeric .number-container svg, .numeric .number-container .img-vector {
     width: 3em;
@@ -246,7 +307,26 @@
 }
 
 }
+
+@media screen and (max-width: 960px){
+
+.tabs-container {
+ 
+    width: 59em;
+}
+}
+
 @media screen and (max-width: 890px){
+
+.users-label svg, .users-label .img-vector {
+    width: 1.4em;
+    height: inherit;
+    display: inline-block;
+    float: left;
+    margin: 0 12px 0 0;
+}
+
+ 
 
 #preferences-header nav {
     display: none;
@@ -289,7 +369,7 @@
 }
 
 
-container .number .seg {
+.container .number .seg {
     font-size: .6em;
 }
     .with-menu{
@@ -317,32 +397,16 @@ container .number .seg {
         padding: 0 1.5em !important;
     }
     
-    #main-container .panel {
-        background: white;
-        box-shadow: 0px 5px 9px -5px rgba(0, 0, 0, 0.18);
-        padding: 20px;
-        border: 1px solid #e1e1e1;
-        margin: 30px 0 0 0;
-        position: relative;
-        height: auto;
-        padding: 1.5em !important;
-    }
+    
 
-    .users-label h2 {
-        float: left;
-        margin: 0;
-        font-size: 20px;
-    }
+   
 
     .users-label .icon {
     width: 30px;
     height: 30px;
     }
 
-    .users-now .users-label {
-        width: 246px;
-
-    }
+   
 
     .percentage-module h3 {
         display: inline-block;
@@ -581,6 +645,8 @@ container .number .seg {
         position: relative;
     }
 
+
+
     .grid-item .info-box .data {
         font-size: 1em;
      
@@ -604,18 +670,31 @@ container .number .seg {
     }
 
 
-    .users-now .users-label {
-    width: 246px;
-    line-height: 4em;
+.number-panel-container {
+    overflow: hidden;
+    background: #f3f3f3;
+    padding: 1em;
+    float: left;
+    width: calc(50% - 2.3em);
+    margin: .2vw;
 }
 
-.users-label svg, .users-label .img-vector {
-    width: 4em !important;
-    height: 4em;
-    display: block;
+.number-panel-container .info-container {
     float: left;
-    margin: 0 12px 0 0;
+    width: 100%;
+    text-align: center;
 }
+
+.number-panel-container .icon {
+    display: block;
+    background: black;
+    width: 3em;
+    height: 3em;
+    float: initial;
+    margin: .5em auto;
+}
+
+
 }
 @media screen and (max-width: 540px){
 
@@ -744,6 +823,26 @@ container .number .seg {
     
 }
 }
+
+@media screen and (max-width: 400px){
+
+.number-panel-container .info-container {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.number-panel-container .icon {
+    display: block;
+    background: black;
+    width: 3em;
+    height: 3em;
+    float: initial;
+    margin: .5em auto;
+}
+
+}
+
 
 @media screen and (max-width: 360px){
 .grid-item .info-box .quantity {
