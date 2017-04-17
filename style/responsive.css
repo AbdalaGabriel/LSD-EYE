@@ -121,7 +121,6 @@
 
 .number-panel-container .icon {
     display: block;
-    background: black;
     width: 3em;
     height: 3em;
     float: left;
@@ -322,6 +321,29 @@
  
     width: 59em;
 }
+
+.full-number-panel-container .icon {
+    display: block;
+    width: 3.4em;
+     float: inherit;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.full-number-panel-container .info-container .number {
+
+    text-align: center;
+}
+
+.full-number-panel .info-container .number-label {
+    text-align: center;
+}
+
+
+.full-number-panel .info-container{
+    margin: 1em 0 0 0;
+}
+
 }
 
 @media screen and (max-width: 890px){
@@ -379,16 +401,9 @@
         padding: 36px 0 0 0 !important;
     }
     
-    .full-number-panel {
-    width: calc(33.333333% - 15px - 3em);
-}
+ 
     
-    .full-number-panel-container .icon {
-    display: block;
-    width: 2em;
-    float: left;
-    margin: .5em .5em .5em 0;
-}
+
 
 .full-number-panel-container .info-container .number {
     margin: 0;
@@ -714,7 +729,6 @@
 
 .number-panel-container .icon {
     display: block;
-    background: black;
     width: 3em;
     height: 3em;
     float: initial;
@@ -762,9 +776,6 @@
 
    }
 
-   .numeric, .full-number-panel{
-    width: calc(100% - 38px);
-}
 
 
 
@@ -868,12 +879,20 @@
 
 .number-panel-container .icon {
     display: block;
-    background: black;
     width: 3em;
     height: 3em;
     float: initial;
     margin: .5em auto;
 }
+
+   .numeric, .full-number-panel{
+    width: calc(100% - 38px);
+}
+
+  .numeric, .full-number-panel:nth-child(2){
+   margin:30px 0 0 !important;
+}
+
 
 }
 
