@@ -25,6 +25,14 @@
         margin: 0px 17.5%;
     }
 
+    .numeric .number-container svg, .numeric .number-container .img-vector {
+        width: 2.4vw;
+        height: 2.4vw;
+        display: inline-block;
+        margin: .4vw 12px 0 0;
+        float: left;
+    }
+
 }
 
 
@@ -90,6 +98,25 @@
 @media screen and (max-width: 1200px){
    .start-collumn {
     padding: 0 !important;
+}
+
+
+
+
+.numeric .number-container svg, .numeric .number-container .img-vector {
+    width: 3em;
+    height: 3em;
+    display: inline-block;
+    margin: .5em .5em 0 0;
+    float: left;
+}
+
+.numeric .number-container h3 {
+    font-size: 3.4vw;
+}
+
+.numeric h2 {
+    font-size: 1.3vw;
 }
 
 .grid .grid-item {
@@ -187,11 +214,7 @@
 
 }
 
-.numeric h2 {
- 
-    font-size: 1.3vw;
-    
-}
+
 
 .numeric .number-container {
     margin: 0 0 10px 17%;
@@ -202,11 +225,9 @@
     height: 3.4vw;
     margin: .5em 1vw 0 0 !important;
     }
-.numeric .number-container h3 {
-    font-size: 3vw;
-}
+
 .numeric .min-container {
-    font-size: 1.5vw;
+    font-size: .5em;
    
     margin: 18px 0 0 .5em;
 }
@@ -581,6 +602,20 @@ container .number .seg {
         margin: 1.2vw 3%;
         cursor: pointer;
     }
+
+
+    .users-now .users-label {
+    width: 246px;
+    line-height: 4em;
+}
+
+.users-label svg, .users-label .img-vector {
+    width: 4em !important;
+    height: 4em;
+    display: block;
+    float: left;
+    margin: 0 12px 0 0;
+}
 }
 @media screen and (max-width: 540px){
 
@@ -621,6 +656,33 @@ container .number .seg {
 
    }
 
+   .numeric, .full-number-panel{
+    width: calc(100% - 38px);
+}
+
+
+
+.numeric.users{
+    
+    margin: 30px 0 0 0 !important;
+
+}
+
+.numeric h2 {
+    font-size: 1.4em;
+}
+
+.numeric .number-container h3 {
+    font-size: 3em;
+}
+.numeric .number-container {
+    margin: 0 0 10px 17%;
+    max-width: 15em;
+    margin: 0 auto 1em;
+}
+
+
+
 }
 
 
@@ -637,6 +699,8 @@ container .number .seg {
 .grid .grid-item {
     width: 99%;
     margin: 1em 0;
+
+}
 
 }
 
@@ -672,15 +736,7 @@ container .number .seg {
 
 
 
-.numeric, .full-number-panel{
-    width: calc(100% - 38px);
-}
 
-.numeric.users{
-    
-    margin: 30px 0 0 0 !important;
-
-}
 
 
 .radio-name-container {
