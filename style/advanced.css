@@ -20,10 +20,34 @@
     margin: 0 .5vw 0 0 ;
 }
 
+.full-number-panel-container{
+      max-width: 15em;
+    margin: 0 auto;
+}
+.full-number-panel-container .icon{
+    display: block;
+    width: 3.7vw;
+
+    float: left;
+    margin: .5vw .5vw 0 0;
+}
+
+.full-number-panel-container .info-container .number {
+    margin: 0;
+    font-size: 2.8vw;
+    font-weight: 400;
+    color: #3c4040;
+    font-family: Roboto;
+}
+
+
 .number-panel-container .info-container{
     float:left;
 }
 
+.full-number-panel-container .info-container .number .seg{
+  font-size: 1.6vw;
+}
 .info-container .number{
      margin: 0;
     font-size: 1.8vw;
