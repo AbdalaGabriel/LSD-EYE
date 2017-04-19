@@ -118,7 +118,7 @@
         width: 1.8vw;
     height: 1.8vw;
         margin: .44vw;
-    background: #000;
+
 
 }
 
@@ -196,18 +196,17 @@
     height: 24px;
     float: left;
     margin: 0 10px 7px 0;
-    background: #adadad;
+
+}
+
+.grid-item ul li a img{
+    width: 100%;
 }
 .grid-item ul li a:hover {
     opacity: .6;
 }
 
-.delete-group{
-    mask-image: url("../img/svg-icons/delete-group.svg");
-    -webkit-mask:url("../img/svg-icons/delete-group.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-}
+
 
 .grid-item footer{
 	position: relative;
@@ -226,11 +225,15 @@
         width: 2vw;
     height: 1.5vw;
     float: left;
-    background: #a0a5d8;
+
        margin: 1.2vw .2vw;
 
     cursor: pointer;
 
+}
+
+.grid-item footer .icons-container .icon img{
+  width: 100%;
 }
 
 .grid-item footer .icons-container .icon:hover{
@@ -238,11 +241,39 @@
 
 }
 
+.groups .grid-item footer .icons-container {
+    padding-left: 0;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    height: 5em;
+}
+
+.grid-item footer .icons-container {
+    opacity: 0.6;
+}
+
+.groups .grid-item footer .icons-container {
+    opacity: 1;
+}
+
+
+.groups  .grid-item footer .icons-container .icon {
+    display: block;
+    width: 18%;
+    height: 2.2vw;
+ 
+    margin: 1.2vw 3%;
+    cursor: pointer;
+    position: absolute;
+    right: .5vw;
+    bottom: .5vw;
+    z-index: 6;
+}
+
+
 .add{
-    mask-image: url("../img/svg-icons/add.svg");
-    -webkit-mask:url("../img/svg-icons/add.svg") no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
+
     width: 28px !important;
     height: 28px !important;
 
@@ -296,7 +327,7 @@
     mask-image: url("../img/svg-icons/checked.svg");
 	-webkit-mask:url("../img/svg-icons/checked.svg") no-repeat 50% 50%;
 	-webkit-mask-size: cover;
-	background: #25ae88 !important;
+
  	mask-size: cover;
 }
 

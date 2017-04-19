@@ -54,7 +54,7 @@
 					<div class="panel grid groups">
 					<div class="grid-item groups">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								<img class="icon" src="img/svg-icons/eye.svg" />
 							</div>
 							<header>
 								<h2>Nombre canal</h2>
@@ -63,18 +63,24 @@
 								<ul class="group-container">
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										La Red
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										Am del Plata
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										El país
@@ -83,7 +89,9 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span title="Agregar" class="icon add"></span>
+									<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 									
 								</div>
 							</footer>
@@ -91,7 +99,7 @@
 
 						<div class="grid-item groups">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								<img class="icon" src="img/svg-icons/eye.svg" />
 							</div>
 							<header>
 								<h2>Nombre canal</h2>
@@ -100,18 +108,24 @@
 								<ul class="group-container">
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										La Red
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										Am del Plata
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										El país
@@ -120,7 +134,9 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span title="Agregar" class="icon add"></span>
+									<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 									
 								</div>
 							</footer>
@@ -128,7 +144,7 @@
 
 						<div class="grid-item groups">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								<img class="icon" src="img/svg-icons/eye.svg" />
 							</div>
 							<header>
 								<h2>Nombre canal</h2>
@@ -137,18 +153,24 @@
 								<ul class="group-container">
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										La Red
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										Am del Plata
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										El país
@@ -157,7 +179,9 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span title="Agregar" class="icon add"></span>
+									<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 									
 								</div>
 							</footer>
@@ -165,7 +189,7 @@
 
 						<div class="grid-item groups">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								<img class="icon" src="img/svg-icons/eye.svg" />
 							</div>
 							<header>
 								<h2>Nombre canal</h2>
@@ -174,18 +198,24 @@
 								<ul class="group-container">
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										La Red
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										Am del Plata
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										El país
@@ -194,13 +224,15 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span title="Agregar" class="icon add"></span>
+									<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 									
 								</div>
 							</footer>
 						</div><div class="grid-item groups">
 						<div class="grid-icon-container">
-							<span class="icon eye"></span>
+							<img class="icon" src="img/svg-icons/eye.svg" />
 						</div>
 						<header>
 							<h2>Nombre canal</h2>
@@ -209,18 +241,24 @@
 							<ul class="group-container">
 								<li>
 									<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 
 									</a>
 									La Red
 								</li>
 								<li>
 									<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 
 									</a>
 									Am del Plata
 								</li>
 								<li>
 									<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 
 									</a>
 									El país
@@ -229,14 +267,16 @@
 						</div>
 						<footer class="o-hidden">
 							<div class="icons-container o-hidden">
-								<span title="Agregar" class="icon add"></span>
+								<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 
 							</div>
 						</footer>
 					</div>
 						<div class="grid-item groups">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								<img class="icon" src="img/svg-icons/eye.svg" />
 							</div>
 							<header>
 								<h2>Nombre canal</h2>
@@ -245,18 +285,24 @@
 								<ul class="group-container">
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										La Red
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										Am del Plata
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										El país
@@ -265,7 +311,9 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span title="Agregar" class="icon add"></span>
+									<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 									
 								</div>
 							</footer>
@@ -273,7 +321,7 @@
 
 						<div class="grid-item groups">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								<img class="icon" src="img/svg-icons/eye.svg" />
 							</div>
 							<header>
 								<h2>Nombre canal</h2>
@@ -282,18 +330,24 @@
 								<ul class="group-container">
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										La Red
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										Am del Plata
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										El país
@@ -302,7 +356,9 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span title="Agregar" class="icon add"></span>
+									<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 									
 								</div>
 							</footer>
@@ -310,7 +366,7 @@
 
 						<div class="grid-item groups">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								<img class="icon" src="img/svg-icons/eye.svg" />
 							</div>
 							<header>
 								<h2>Nombre canal</h2>
@@ -319,18 +375,24 @@
 								<ul class="group-container">
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										La Red
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										Am del Plata
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										El país
@@ -339,7 +401,9 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span title="Agregar" class="icon add"></span>
+									<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 									
 								</div>
 							</footer>
@@ -347,7 +411,7 @@
 
 						<div class="grid-item groups">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								<img class="icon" src="img/svg-icons/eye.svg" />
 							</div>
 							<header>
 								<h2>Nombre canal</h2>
@@ -356,18 +420,24 @@
 								<ul class="group-container">
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										La Red
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										Am del Plata
 									</li>
 									<li>
 										<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 											
 										</a>
 										El país
@@ -376,13 +446,15 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span title="Agregar" class="icon add"></span>
+									<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 									
 								</div>
 							</footer>
 						</div><div class="grid-item groups">
 						<div class="grid-icon-container">
-							<span class="icon eye"></span>
+							<img class="icon" src="img/svg-icons/eye.svg" />
 						</div>
 						<header>
 							<h2>Nombre canal</h2>
@@ -391,18 +463,24 @@
 							<ul class="group-container">
 								<li>
 									<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 
 									</a>
 									La Red
 								</li>
 								<li>
 									<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 
 									</a>
 									Am del Plata
 								</li>
 								<li>
 									<a title="Quitar" href="#" class="delete-group">
+											<img class="icon" src="img/svg-icons/delete-group.svg"/>
+										</a>
 
 									</a>
 									El país
@@ -411,7 +489,9 @@
 						</div>
 						<footer class="o-hidden">
 							<div class="icons-container o-hidden">
-								<span title="Agregar" class="icon add"></span>
+								<a title="Agregar" class="icon add">
+										<img src="img/svg-icons/add.svg">
+									</a>
 
 							</div>
 						</footer>

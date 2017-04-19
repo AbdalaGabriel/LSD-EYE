@@ -54,7 +54,8 @@
 					<div class="panel grid channels">
 						<div class="grid-item channel">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								
+								<img src="img/svg-icons/eye.svg" class="icon">
 							</div>
 							<header>
 								<img src="img/channel-image.jpg" alt="">
@@ -73,17 +74,18 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span class="icon delete"></span>
-									<span class="icon edit"></span>
-									<span class="icon suspend"></span>
-									<span class="icon cloud"></span>
+									<img class="icon" src="img/svg-icons/delete.svg">
+									<img class="icon" src="img/svg-icons/edit.svg">
+									<img class="icon" src="img/svg-icons/suspend.svg">
+									<img class="icon" src="img/svg-icons/cloud.svg">
 								</div>
 							</footer>
 						</div>
 
 						<div class="grid-item channel">
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								
+								<img src="img/svg-icons/eye.svg" class="icon">
 							</div>
 							<header>
 								<img src="img/channel-image.jpg" alt="">
@@ -102,10 +104,10 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span class="icon delete"></span>
-									<span class="icon edit"></span>
-									<span class="icon suspend"></span>
-									<span class="icon cloud"></span>
+									<img class="icon" src="img/svg-icons/delete.svg">
+									<img class="icon" src="img/svg-icons/edit.svg">
+									<img class="icon" src="img/svg-icons/suspend.svg">
+									<img class="icon" src="img/svg-icons/cloud.svg">
 								</div>
 							</footer>
 						</div>
@@ -113,7 +115,8 @@
 						<div class="grid-item channel">
 
 							<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								
+								<img src="img/svg-icons/eye.svg" class="icon">
 							</div>
 							<header>
 								<img src="img/channel-image.jpg" alt="">
@@ -132,21 +135,21 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span class="icon delete"></span>
-									<span class="icon edit"></span>
-									<span class="icon suspend"></span>
-									<span class="icon cloud"></span>
+									<img class="icon" src="img/svg-icons/delete.svg">
+									<img class="icon" src="img/svg-icons/edit.svg">
+									<img class="icon" src="img/svg-icons/suspend.svg">
+									<img class="icon" src="img/svg-icons/cloud.svg">
 								</div>
 							</footer>
 						</div>
 
 						<div class="grid-item channel">
 						<div class="grid-icon-container">
-								<span class="icon checked-icon"></span>
+								<img class="icon" src="img/svg-icons/checked.svg" />
 							</div>
 							<header>
 								<img src="img/channel-image.jpg" alt="">
-								<h2>Nombre canal</h2>
+								<h2>Ejemplo de un nombre de canal largo</h2>
 							</header>
 							<div class="content o-hidden">
 								<div class="info-box">
@@ -161,17 +164,18 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span class="icon delete"></span>
-									<span class="icon edit"></span>
-									<span class="icon suspend"></span>
-									<span class="icon cloud"></span>
+									<img class="icon" src="img/svg-icons/delete.svg">
+									<img class="icon" src="img/svg-icons/edit.svg">
+									<img class="icon" src="img/svg-icons/suspend.svg">
+									<img class="icon" src="img/svg-icons/cloud.svg">
 								</div>
 							</footer>
 						</div>
 
 						<div class="grid-item channel">
 						<div class="grid-icon-container">
-								<span class="icon eye"></span>
+								
+								<img src="img/svg-icons/eye.svg" class="icon">
 							</div>
 							<header>
 								<img src="img/channel-image.jpg" alt="">
@@ -190,10 +194,10 @@
 							</div>
 							<footer class="o-hidden">
 								<div class="icons-container o-hidden">
-									<span class="icon delete"></span>
-									<span class="icon edit"></span>
-									<span class="icon suspend"></span>
-									<span class="icon cloud"></span>
+									<img class="icon" src="img/svg-icons/delete.svg">
+									<img class="icon" src="img/svg-icons/edit.svg">
+									<img class="icon" src="img/svg-icons/suspend.svg">
+									<img class="icon" src="img/svg-icons/cloud.svg">
 								</div>
 							</footer>
 						</div>

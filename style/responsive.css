@@ -14,7 +14,7 @@
     width: 18%;
     height: 2.2vw;
     float: left;
-    background: #a0a5d8;
+
     margin: 1.2vw 3%;
     cursor: pointer;
     }
@@ -206,6 +206,9 @@
 .grid-item h2 {
     font-weight: 300;
     font-size: 1.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .radio-name-container .play {
@@ -310,7 +313,7 @@
     width: 2em;
     height: 2em;
     margin: .3em auto;
-    background: #000;
+
 }
 
 }
@@ -706,7 +709,7 @@
         display: block;
         width: 2.5em;
         height: 2em;
-        background: #a0a5d8;
+
         margin: 1.2vw 3%;
         cursor: pointer;
     }
@@ -928,7 +931,7 @@
     display: block;
     width: 2.4em;
     height: 1.82em;
-    background: #a0a5d8;
+
     margin: 2em 2% 1em;
     cursor: pointer;
 }
