@@ -27,6 +27,10 @@ a:hover{
     padding: 0 30px;
 }
 
+.col-lg-4 {
+    width: 33.33333333%;
+}
+
 main{
 	font-family: 'Roboto', sans-serif;
 }

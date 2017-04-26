@@ -263,7 +263,7 @@ main{
 
 #main-content header nav ul li a{
     display: block;
-    height: 22px;
+        height: 38px;
     padding-top: 12px;
     text-transform: uppercase;
     text-align: center;
@@ -332,7 +332,7 @@ main{
     color: white;
     padding: 3vw 20px  3vw!important;
     text-align: center;
-    height: calc(380px - 6vw)
+    height: calc(480px - 6vw)
 }
 
 @media screen and (max-width: 1440px){
@@ -400,7 +400,7 @@ main{
 /* Panel de plataformas */
 
 .platforms-stats{ 
-    height: calc(380px - 40px);
+    height: calc(420px - 40px);
 }
 
 .platforms-stats .platform-container{
@@ -504,7 +504,7 @@ main{
 /*Paneles numéricos */
 
 .numeric{    
-    height: calc(115px - 36px);
+    height: calc(155px - 36px);
     margin: 10px 0 0 0  !important;
 }
 
@@ -543,6 +543,7 @@ main{
     text-transform: uppercase;
     color: #767676;
      margin: 0;
+         display: block;
 }
 
 .numeric .min-container{

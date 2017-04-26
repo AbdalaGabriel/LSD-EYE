@@ -28,7 +28,9 @@
 	<script src="https://code.highcharts.com/stock/highstock.js"></script>
 	<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
 
-
+<style>
+div {box-sizing: border-box}
+</style>
 
 
 </head>
