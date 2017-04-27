@@ -1,5 +1,6 @@
-.users-statics-container{
-
+.users-statics-container {
+    margin: 2em 0;
+    padding: 0;
 }
 
 .number-panel-container{
@@ -7,7 +8,7 @@
     background: #f3f3f3;
     padding: 1vw .5vw 1vw 1vw;
     float: left;
-    width: calc(25% - 1.9vw);
+    width: calc(25% - .4vw);
     margin: .2vw;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .full-number-panel-container{
-      max-width: 15em;
+      max-width: 18em;
     margin: 0 auto;
 }
 .full-number-panel-container .icon{
@@ -54,12 +55,13 @@
     color: #3c4040;
 }
 
-.info-container .number-label{
-        font-size: .7vw;
+.info-container .number-label {
+    font-size: 1em;
     text-transform: uppercase;
     font-weight: 300;
     margin: 0;
     color: #3c4040;
+    margin: .5em 0 0 0;
 }
 
 

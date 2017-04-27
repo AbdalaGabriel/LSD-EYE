@@ -20,10 +20,10 @@
     }
 
     .grid-item footer .icons-container {
-        padding-left: 0;
-        width: 65%;
-        margin: 0px 17.5%;
-    }
+    padding-left: 0;
+    width: 14em;
+    margin: 0 auto;
+}
 
     .numeric .number-container svg, .numeric .number-container .img-vector {
         width: 2.4vw;
@@ -49,6 +49,8 @@
 }
 
 
+
+
 }
 
 
@@ -62,13 +64,13 @@
     }
 
     .tabs {
-        border: 2px solid red;
-        float: left;
-        height: 2em;
-        line-height: 2em;
-        border-radius: .3em;
-        overflow: hidden;
-    }
+    border: 2px solid red;
+    float: left;
+    height: 3em;
+    line-height: 3em;
+    border-radius: .3em;
+    overflow: hidden;
+}
     
     .tabs .tab{
         font-size: 1em;
@@ -77,10 +79,28 @@
     .tabs-container.audience-tabs {
         overflow: hidden;
         float: inherit;
-        margin: 9em 0 1em 0;
+        margin: 7em 0 1em 0;
         clear: both;
-        max-width: 58em;
+            width: 100%;
     }
+
+       .start-collumn {
+    padding: 0 !important;
+}
+
+.grid-item header {
+
+    color: white;
+    padding: 12px;
+    height: 5em;
+}
+
+.grid-item header img {
+    width: 3em;
+    height: 3em;
+    float: left;
+    margin: 0 1em 0 0;
+}
 
 }
 
@@ -97,17 +117,48 @@
 
 .grid-item .info-box .data {
     color: #939393;
-    font-size: 1vw;
+    font-size: 1em;
     font-weight: 400;
     display: block;
     padding: 0 1vw;
 }
+
+.grid-item .content {
+    margin: 1em 0;
+}
+
+.grid-item footer .icons-container .icon {
+    display: block;
+    width: 2.5em;
+    height: 2em;
+    margin: 1.2vw 2%;
+    cursor: pointer;
+}
+
 }
 
 @media screen and (max-width: 1200px){
-   .start-collumn {
-    padding: 0 !important;
+
+
+.grid-item .grid-icon-container {
+
+    top: 2.5em;
+    
 }
+
+.full-number-panel-container .icon {
+    display: block;
+    width: 3em;
+    float: left;
+    margin: .5em .5em 0 0;
+}
+
+
+
+.numeric{
+    padding: 1em 0 !important;
+}
+
 
 .info-container .number-label {
     font-size: .78em;
@@ -137,6 +188,7 @@
         float: left;
         margin: 0;
         font-size: 20px;
+        line-height: 2em;
     }
 
 
@@ -184,9 +236,12 @@
 }
 
 .numeric h2 {
-    font-size: 1.3vw;
+    font-size: 1em;
+   
+    white-space: inherit;
+    width: 100%;
+    line-height: 1.3em;
 }
-
 .grid .grid-item {
     width: 31.3%;
     margin: 1% calc(1% - 2px) 0;
@@ -254,14 +309,14 @@
 }
 
 .numeric{
-        width: calc(33.33333333% - 20px - 3em);
+        width: calc(33.33333333% - 1.2em);
         float: left;
         margin: 30px 0 0 0 !important;
         min-height: 9vw;
 }
 
 .full-number-panel{
-    width: calc(33.33333333% - 20px - 3em);
+        width: calc(33.33333333% - 1.2em);
     float: left;
     margin: 30px 20px 0 !important;
 }
@@ -273,11 +328,13 @@
 .full-number-panel-container .info-container .number {
     margin: 0;
     font-size: 2.5em;
+    line-height: 1.5em;
 }
 
-
 .full-number-panel .info-container .number-label {
-    font-size: .8em;
+  font-size: 1em;
+    display: block;
+    margin: 1em 0 0 0;
 }
 .numeric.users{
     
@@ -383,6 +440,14 @@
 #preferences-header nav {
     display: none;
 }
+
+#preferences-header {
+    height: 100px !important;
+    background: #ea3f33 !important;
+    overflow: hidden !important;
+    color: white;
+}
+
 #main-content-preferences #preferences-header {
     height: 100px !important;
     }
@@ -401,11 +466,11 @@
     
     /* Estilos del main*/
     main{
-        padding: 36px 0 0 0 !important;
+        padding: 36px 0 0 50px !important;
     }
     
  
-    
+ 
 
 
 .full-number-panel-container .info-container .number {
@@ -428,12 +493,12 @@
 
     @keyframes withmenu {
         from {padding: 36px 0 0 0;}
-        to {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 50px;}
     }
 
     @-webkit-keyframes  withmenu {
         from {padding: 36px 0 0 0;}
-        to {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 50px;}
     }
 
 
@@ -441,10 +506,80 @@
         /*padding: 0 2em !important;*/
         padding: 0 1.5em !important;
     }
+
+
+    @keyframes withmenu-preferences {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 50px;}
+    }
+
+    @-webkit-keyframes  withmenu-preferences {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 50px;}
+    }
     
     
 
-   
+    @keyframes nomenu-preferences {
+        from {padding: 36px 0 0 50px;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  nomenu-preferences {
+        from {padding: 36px 0 0 50px;}
+        to {padding: 36px 0 0 0;}
+    }
+
+      @keyframes nomenu {
+        from {padding: 36px 0 0 50px;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  nomenu {
+        from {padding: 36px 0 0 50px;}
+        to {padding: 36px 0 0 0;}
+    }
+
+   /* - Header de preferencias - */
+
+    .no-menu-header-preferences{
+        -webkit-animation-name: nomenu-header-preferences; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: nomenu-header-preferences;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes nomenu-header-preferences {
+        from {padding: 0 ;}
+        to {padding: 0 0 0 0;}
+    }
+
+    @-webkit-keyframes  nomenu-header-preferences {
+        from {padding: 0 ;}
+        to {padding: 0 0 0 0;}
+    }
+
+
+    .with-menu-header-preferences{
+        -webkit-animation-name: withmenu-header-preferences; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+         animation-name: withmenu-header-preferences;
+        animation-duration: .5s;
+       -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes withmenu--header-preferences {
+        from {padding-left: 0 0 0 0;}
+        to {padding-left: 0;}
+    }
+
+    @-webkit-keyframes  withmenu-header-preferences {
+        from {padding-left: 0 0 0 0;}
+        to {padding-left: 0;}
+    }
 
     .users-label .icon {
     width: 30px;
@@ -575,7 +710,7 @@
         position: fixed;
         margin: 0;
         z-index: 109;
-        left: -50px;
+        left: 0;
     }
 
     table.audience td {
@@ -720,7 +855,7 @@
     background: #f3f3f3;
     padding: 1em;
     float: left;
-    width: calc(50% - 2.3em);
+    width: calc(50% - .3em);
     margin: .2vw;
 }
 
@@ -740,9 +875,59 @@
 
 
 }
+
+@media screen and (max-width: 590px){
+.numeric{
+    height: 12em;
+}
+
+
+  .full-number-panel{
+   
+    height: 12em;
+}
+
+}
+
 @media screen and (max-width: 540px){
 
+.tabs .tab {
+    display: block;
+    float: left;
+    padding: 0 1em;
+    font-family: Roboto;
+    border-right: none;
+    font-size: 13px;
+    text-transform: uppercase;
+}
 
+
+.starting-time-container{
+    margin-left: 0 !important;
+}
+
+  .numeric, .full-number-panel{
+    width: 100%;
+    height: inherit;
+}
+
+#main-lateral-bar {
+    max-width: 50px;
+}
+
+#main-lateral-bar {
+        
+        background: #3c4250;
+        height: 100vh;
+        float: left;
+        position: fixed;
+        margin: 0;
+        z-index: 109;
+        -webkit-box-shadow: 17px 0px 38px -6px rgba(0,0,0,0.37);
+-moz-box-shadow: 17px 0px 38px -6px rgba(0,0,0,0.37);
+box-shadow: 17px 0px 38px -6px rgba(0,0,0,0.37);
+        left: -80px;
+}
 
     .title-date-container{
         float: none;
@@ -753,7 +938,7 @@
         line-height: 2em;
         border-radius: .3em;
         overflow: inherit;
-        width: initial;
+        width: 100%;
      }
     .tabs-container {
         overflow: hidden;
@@ -761,11 +946,20 @@
         margin:2em 5% 0;
         width: 90%;
         clear: both;
+             margin: 4em 5% 1em !important;
     }
     .tabs-container .hint {
 
         margin: 0 1em 1em 0;
     }
+
+    .tabs-container.audience-tabs {
+    overflow: hidden;
+    float: inherit;
+    margin: 4em 0 1em 0 !important;
+    clear: both;
+    width: 100%;
+}
 
     .tabs .tab {
         font-size: 1.1em;
@@ -807,6 +1001,64 @@
     overflow: hidden;
     width: 8em;
 }
+
+
+main{
+        padding: 36px 0 0 0 !important;
+    }
+    
+
+
+  @keyframes withmenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  withmenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+
+    #main-container > .row {
+        /*padding: 0 2em !important;*/
+        padding: 0 1.5em !important;
+    }
+
+
+    @keyframes withmenu-preferences {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0px;}
+    }
+
+    @-webkit-keyframes  withmenu-preferences {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0px;}
+    }
+    
+    
+
+    @keyframes nomenu-preferences {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  nomenu-preferences {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+      @keyframes nomenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+    @-webkit-keyframes  nomenu {
+        from {padding: 36px 0 0 0;}
+        to {padding: 36px 0 0 0;}
+    }
+
+
 
 
 
@@ -888,9 +1140,7 @@
     margin: .5em auto;
 }
 
-   .numeric, .full-number-panel{
-    width: calc(100% - 38px);
-}
+ 
 
   .numeric, .full-number-panel:nth-child(2){
    margin:30px 0 0 !important;

@@ -16,19 +16,19 @@
 
 		<div class="right-column">
 
-			<div class="options main-menu">
+			<div class="options-header main-menu">
 				<a href="#">
 					<img  src="img/svg-icons/menu.svg" class="header-icon main-menu"></img>
 				</a>
 			</div>
 
-			<div class="options configurations">
+			<div class="options-header configurations">
 				<a href="#">
 					<img  src="img/svg-icons/configurations.svg" class="header-icon config"></img>
 				</a>
 			</div>
 
-			<div class="options user">
+			<div class="options-header logged-user">
 				<a href="#">
 					<span class="user-mail">usuario@gmail.com</span>
 					<img class="header-icon user-image-profile" src="img/svg-icons/profile-user.svg"></img>

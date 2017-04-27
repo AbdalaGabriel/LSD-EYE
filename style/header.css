@@ -24,7 +24,7 @@ header#lsd-main-header {
 }
 
 
-.right-column .options{
+.right-column .options-header{
 	float: right;
 	height: 36px;
 	overflow: hidden;
@@ -34,7 +34,7 @@ header#lsd-main-header {
 }
 
 
-.right-column .options a{
+.right-column .options-header a{
 	display: block;
 }
 

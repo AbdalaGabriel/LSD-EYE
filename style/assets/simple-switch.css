@@ -35,13 +35,13 @@
   transition: background-color 0.4s, left 0.2s;
 }
 .simple-switch-outter.checked {
-  border-color: #64bd63;
-  box-shadow: #64bd63 0px 0px 0px 16px inset;
-  transition: border 0.4s, box-shadow 0.4s, background-color 1.2s;
-  background-color: #64bd63;
+    border-color: #0ba762;
+    box-shadow: #0ba762 0px 0px 0px 16px inset;
+    transition: border 0.4s, box-shadow 0.4s, background-color 1.2s;
+    background-color: #0ba762;
 }
 .simple-switch-outter.checked .simple-switch-circle {
   left: 20px;
   transition: background-color 0.4s, left 0.2s;
-  background-color: #ffffff;
+  background-color: #018e50;
 }

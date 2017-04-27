@@ -98,7 +98,7 @@
 							</div>
 						</div>
 
-						<div class="panel full-number-panel">
+						<div class="panel full-number-panel starting-time-container">
 							<a href="#" class="info" data-placement="left" data-toggle="tooltip" title="Lorem Ipsum sit dolor amet commet"></a>
 
 							<div class="full-number-panel-container ">

@@ -17,7 +17,7 @@ body{
 }
 
 .form-login-container{
-    max-width: 740px;
+    max-width: 620px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -34,18 +34,22 @@ body{
 }
 
 .form-login-container form .icon{
-    max-width: 2.5em;
+    max-width: 3em;
     float: left;
+    margin: .5em 0 0 0;
 }
 
 .form-login-container form input[type="text"]{
     border: 0;
     border-bottom: 1px solid #a4a4a4;
-    padding: 0 0 .8em .8em;
     width: calc(100% - 4.4em);
     margin: 0 0 0 1em;
     font-size: 1.25em;
+    line-height: 21px;
     font-family: Roboto;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 0 0 .5em;
 
 }
 
